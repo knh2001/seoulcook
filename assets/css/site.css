@@ -234,8 +234,29 @@ br.lg{display:none}
 .dark .certbadge .cb-name{color:var(--ink)}
 .dark .certbadge .cb-cap{color:var(--ink-3)}
 
-@media(max-width:900px){.certgrid{grid-template-columns:repeat(3,1fr)}}
-@media(max-width:520px){.certgrid{grid-template-columns:repeat(2,1fr)}}
+
+/* 컴팩트 변형 — 로고를 작게, 화면 크기와 무관하게 항상 가로 한 줄 */
+.certgrid.compact{grid-template-columns:repeat(5,1fr)}
+.certgrid.compact .certbadge{aspect-ratio:auto;min-height:118px;padding:18px 8px;gap:9px}
+.certgrid.compact .cb-logo{flex:0 0 auto;width:auto}
+/* 모든 로고 캔버스 비율이 같아 높이만 고정하면 폭까지 완전히 동일해집니다 */
+.certgrid.compact .cb-logo img{width:auto;height:54px}
+.certgrid.compact .cb-cap{font-size:.66rem;line-height:1.35}
+@media(max-width:900px){
+  .certgrid.compact{grid-template-columns:repeat(5,1fr)}
+  .certgrid.compact .certbadge{min-height:96px;padding:14px 5px;gap:7px}
+  .certgrid.compact .cb-logo img{height:40px}
+  .certgrid.compact .cb-cap{font-size:.58rem}
+}
+@media(max-width:520px){
+  .certgrid.compact{grid-template-columns:repeat(5,1fr)}
+  .certgrid.compact .certbadge{min-height:74px;padding:10px 3px;gap:0}
+  .certgrid.compact .cb-logo img{height:30px}
+  .certgrid.compact .cb-cap{display:none}
+}
+
+@media(max-width:900px){.certgrid:not(.compact){grid-template-columns:repeat(3,1fr)}}
+@media(max-width:520px){.certgrid:not(.compact){grid-template-columns:repeat(2,1fr)}}
 
 /* ---------- timeline ---------- */
 .tl{display:grid;gap:0;border-top:1px solid var(--line)}
