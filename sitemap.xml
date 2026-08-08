@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url><loc>https://ssamssam.com/</loc><priority>1.0</priority><xhtml:link rel="alternate" hreflang="ko" href="https://ssamssam.com/"/><xhtml:link rel="alternate" hreflang="en" href="https://ssamssam.com/?lang=en"/></url>
-  <url><loc>https://ssamssam.com/about/</loc><priority>0.8</priority><xhtml:link rel="alternate" hreflang="ko" href="https://ssamssam.com/about/"/><xhtml:link rel="alternate" hreflang="en" href="https://ssamssam.com/about/?lang=en"/></url>
-  <url><loc>https://ssamssam.com/products/</loc><priority>0.9</priority><xhtml:link rel="alternate" hreflang="ko" href="https://ssamssam.com/products/"/><xhtml:link rel="alternate" hreflang="en" href="https://ssamssam.com/products/?lang=en"/></url>
-  <url><loc>https://ssamssam.com/recipes/</loc><priority>0.8</priority><xhtml:link rel="alternate" hreflang="ko" href="https://ssamssam.com/recipes/"/><xhtml:link rel="alternate" hreflang="en" href="https://ssamssam.com/recipes/?lang=en"/></url>
-  <url><loc>https://ssamssam.com/b2b/</loc><priority>0.9</priority><xhtml:link rel="alternate" hreflang="ko" href="https://ssamssam.com/b2b/"/><xhtml:link rel="alternate" hreflang="en" href="https://ssamssam.com/b2b/?lang=en"/></url>
-  <url><loc>https://ssamssam.com/contact/</loc><priority>0.8</priority><xhtml:link rel="alternate" hreflang="ko" href="https://ssamssam.com/contact/"/><xhtml:link rel="alternate" hreflang="en" href="https://ssamssam.com/contact/?lang=en"/></url>
+  <url><loc>https://seoulcook.com/</loc><priority>1.0</priority><xhtml:link rel="alternate" hreflang="ko" href="https://seoulcook.com/"/><xhtml:link rel="alternate" hreflang="en" href="https://seoulcook.com/?lang=en"/></url>
+  <url><loc>https://seoulcook.com/about/</loc><priority>0.8</priority><xhtml:link rel="alternate" hreflang="ko" href="https://seoulcook.com/about/"/><xhtml:link rel="alternate" hreflang="en" href="https://seoulcook.com/about/?lang=en"/></url>
+  <url><loc>https://seoulcook.com/products/</loc><priority>0.9</priority><xhtml:link rel="alternate" hreflang="ko" href="https://seoulcook.com/products/"/><xhtml:link rel="alternate" hreflang="en" href="https://seoulcook.com/products/?lang=en"/></url>
+  <url><loc>https://seoulcook.com/recipes/</loc><priority>0.8</priority><xhtml:link rel="alternate" hreflang="ko" href="https://seoulcook.com/recipes/"/><xhtml:link rel="alternate" hreflang="en" href="https://seoulcook.com/recipes/?lang=en"/></url>
+  <url><loc>https://seoulcook.com/b2b/</loc><priority>0.9</priority><xhtml:link rel="alternate" hreflang="ko" href="https://seoulcook.com/b2b/"/><xhtml:link rel="alternate" hreflang="en" href="https://seoulcook.com/b2b/?lang=en"/></url>
+  <url><loc>https://seoulcook.com/contact/</loc><priority>0.8</priority><xhtml:link rel="alternate" hreflang="ko" href="https://seoulcook.com/contact/"/><xhtml:link rel="alternate" hreflang="en" href="https://seoulcook.com/contact/?lang=en"/></url>
 </urlset>
