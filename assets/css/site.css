@@ -202,17 +202,40 @@ br.lg{display:none}
 .card:hover{border-color:var(--line-2)}
 
 /* ---------- certifications ---------- */
-.certs{display:flex;flex-wrap:wrap;gap:10px}
-.cert{
-  display:inline-flex;align-items:center;gap:9px;border:1px solid var(--line-2);
-  padding:11px 18px;font-size:.85rem;font-weight:600;letter-spacing:-.01em;border-radius:var(--r);
+/* 5칸 균일 배지. 공식 로고 파일을 넣으면 같은 칸 안에 동일 크기로 들어갑니다. */
+.certgrid{
+  display:grid;grid-template-columns:repeat(5,1fr);gap:1px;
+  background:var(--line);border:1px solid var(--line);
 }
-.cert .cm{
-  width:18px;height:18px;border-radius:50%;background:var(--ink);color:var(--white);
-  display:grid;place-items:center;font-size:.6rem;font-weight:700;flex-shrink:0;
+.certbadge{
+  background:var(--white);aspect-ratio:1/1;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;gap:6px;padding:14px 12px;text-align:center;
 }
-.dark .cert{border-color:rgba(255,255,255,.25)}
-.dark .cert .cm{background:var(--white);color:var(--ink)}
+.certbadge .cb-mark{
+  width:30px;height:30px;border-radius:50%;border:1.5px solid var(--ink);
+  display:grid;place-items:center;color:var(--ink);margin-bottom:2px;
+}
+.certbadge .cb-mark svg{width:15px;height:15px}
+.certbadge .cb-name{
+  font-size:.86rem;font-weight:700;letter-spacing:-.02em;line-height:1.2;color:var(--ink);
+}
+.certbadge .cb-cap{font-size:.7rem;line-height:1.35;color:var(--ink-3)}
+/* 실제 로고가 들어갈 자리 — 어떤 비율의 파일이든 동일한 크기 안에 맞춰집니다 */
+.certbadge .cb-logo{
+  width:100%;flex:1;display:grid;place-items:center;min-height:0;
+}
+/* 로고 파일은 모두 동일 캔버스(480×340)로 정규화되어 있어 크기가 정확히 같습니다 */
+.certbadge .cb-logo img{width:84%;height:auto;object-fit:contain}
+
+/* 어두운 섹션 — 컬러 로고가 죽지 않도록 카드를 흰색으로 유지합니다 */
+.dark .certgrid{background:rgba(255,255,255,.22);border-color:rgba(255,255,255,.22)}
+.dark .certbadge{background:var(--white)}
+.dark .certbadge .cb-mark{border-color:var(--ink);color:var(--ink)}
+.dark .certbadge .cb-name{color:var(--ink)}
+.dark .certbadge .cb-cap{color:var(--ink-3)}
+
+@media(max-width:900px){.certgrid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:520px){.certgrid{grid-template-columns:repeat(2,1fr)}}
 
 /* ---------- timeline ---------- */
 .tl{display:grid;gap:0;border-top:1px solid var(--line)}
