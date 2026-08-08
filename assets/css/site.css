@@ -220,6 +220,11 @@ br.lg{display:none}
   display:grid;grid-template-columns:150px 1fr;gap:clamp(18px,4vw,54px);
   padding:clamp(24px,3vw,34px) 0;border-bottom:1px solid var(--line);
 }
+/* 사진이 있는 연도 행 — 우측 여백에 이미지를 넣습니다 */
+.tl-row.has-img{grid-template-columns:150px 1fr minmax(210px,290px)}
+.tl-fig{margin:0;align-self:start}
+.tl-fig img{width:100%;height:auto;display:block;border:1px solid var(--line);border-radius:2px}
+.tl-fig figcaption{font-size:.75rem;line-height:1.55;color:var(--ink-3);margin-top:9px}
 .tl-year{font-size:clamp(1.1rem,2vw,1.5rem);font-weight:700;letter-spacing:-.03em;color:var(--ink)}
 .tl-body h3{margin-bottom:9px}
 .tl-body p{color:var(--ink-2);font-size:.95rem;max-width:62ch}
@@ -329,7 +334,8 @@ textarea{min-height:130px;resize:vertical;line-height:1.65}
   .hero-strip{grid-template-columns:repeat(2,1fr)}
   .hero-strip div:nth-child(2){border-right:0}
   .hero-strip div:nth-child(1),.hero-strip div:nth-child(2){border-bottom:1px solid var(--line)}
-  .tl-row{grid-template-columns:1fr;gap:10px}
+  .tl-row,.tl-row.has-img{grid-template-columns:1fr;gap:10px}
+  .tl-fig{max-width:360px;margin-top:6px}
   .frow{grid-template-columns:1fr}
   .ilist > div{grid-template-columns:1fr;gap:4px}
 }
