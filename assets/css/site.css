@@ -13,8 +13,9 @@
   --line:#e6e3dc;
   --line-2:#d8d4ca;
   --tomato:#c8402f;
-  --garlic:#8e8467;
-  --pepper:#2f7a3f;
+  --garlic:#b4522c;
+  --cilantro:#2f7a3f;
+  --pepper:#c4242a;
   --max:1240px;
   --r:2px;
   --f:"Pretendard","Inter","Noto Sans KR",-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,sans-serif;
@@ -151,7 +152,7 @@ br.lg{display:none}
   position:absolute;width:78%;aspect-ratio:1;border-radius:50%;
   background:radial-gradient(circle,var(--ivory-2) 0%,rgba(243,240,233,0) 68%);
 }
-.hero-art img{position:relative;width:min(100%,470px)}
+.hero-art img{position:relative;width:min(100%,470px);mix-blend-mode:multiply}
 .hero-strip{
   margin-top:clamp(40px,5vw,66px);border-top:1px solid var(--line);
   display:grid;grid-template-columns:repeat(4,1fr);
@@ -167,16 +168,16 @@ br.lg{display:none}
 .phero .lead{margin-top:20px;max-width:60ch}
 
 /* ---------- product cards ---------- */
-.trio{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.trio{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
 .trio > article{background:var(--white);padding:clamp(24px,3vw,38px);display:flex;flex-direction:column;transition:.24s var(--ease)}
 .trio > article:hover{background:var(--ivory)}
 .pfig{aspect-ratio:1;display:grid;place-items:center;margin-bottom:22px;position:relative}
-.pfig img{width:88%;transition:transform .45s var(--ease)}
+.pfig img{width:88%;mix-blend-mode:multiply;transition:transform .45s var(--ease)}
 .trio > article:hover .pfig img{transform:scale(1.045)}
 .pname{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
 .pname h3{margin:0}
 .pdot{width:8px;height:8px;border-radius:50%;flex-shrink:0;align-self:center}
-.d-tomato{background:var(--tomato)}.d-garlic{background:var(--garlic)}.d-pepper{background:var(--pepper)}
+.d-tomato{background:var(--tomato)}.d-garlic{background:var(--garlic)}.d-pepper{background:var(--pepper)}.d-cilantro{background:var(--cilantro)}
 .pcore{font-size:.78rem;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3);font-weight:600;margin-top:9px}
 .pdesc{font-size:.94rem;color:var(--ink-2);margin-top:14px;flex:1}
 .pspec{margin-top:20px;border-top:1px solid var(--line);padding-top:16px;display:grid;gap:9px}
@@ -279,7 +280,7 @@ br.lg{display:none}
 .tl-body p{color:var(--ink-2);font-size:.95rem;max-width:62ch}
 
 /* ---------- recipes ---------- */
-.rec{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.rec{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
 .rec > article{background:var(--white);padding:clamp(24px,2.8vw,34px);display:flex;flex-direction:column;transition:.2s var(--ease)}
 .rec > article:hover{background:var(--ivory)}
 .rec .tagline{display:flex;align-items:center;gap:8px;font-size:.74rem;font-weight:600;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-3)}
@@ -292,7 +293,7 @@ br.lg{display:none}
 /* ---------- split feature ---------- */
 .split{display:grid;grid-template-columns:1fr 1fr;gap:clamp(30px,5vw,72px);align-items:center}
 .split-art{background:var(--ivory);aspect-ratio:4/3;display:grid;place-items:center;padding:8%}
-.split-art img{width:min(100%,340px)}
+.split-art img{width:min(100%,340px);mix-blend-mode:multiply}
 
 /* ---------- table ---------- */
 .tbl{width:100%;border-collapse:collapse;font-size:.9rem}
