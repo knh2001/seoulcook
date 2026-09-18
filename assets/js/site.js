@@ -40,6 +40,15 @@
     LANG = (l === 'en') ? 'en' : 'ko';
     html.lang = LANG;
 
+    /* Mark the inactive-language nodes as non-translatable. Both KO and EN
+       copy live in the DOM at once; without this a browser translator can
+       misread the page language and re-translate already-correct copy. */
+    document.querySelectorAll('[data-ko],[data-en]').forEach(function (el) {
+      var isActive = el.hasAttribute(LANG === 'en' ? 'data-en' : 'data-ko');
+      if (isActive) el.removeAttribute('translate');
+      else el.setAttribute('translate', 'no');
+    });
+
     var ko = document.getElementById('lang-ko');
     var en = document.getElementById('lang-en');
     if (ko) ko.setAttribute('aria-pressed', String(LANG === 'ko'));
