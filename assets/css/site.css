@@ -408,3 +408,31 @@ textarea{min-height:130px;resize:vertical;line-height:1.65}
   .hdr,.ftr,.burger,.lang,.toast{display:none!important}
   body{color:#000}
 }
+
+/* ---------- legal pages (terms / privacy) ---------- */
+.legal{max-width:80ch}
+.legal h3{
+  font-size:1.02rem;font-weight:700;letter-spacing:-.02em;color:var(--ink);
+  margin:44px 0 14px;padding-top:22px;border-top:1px solid var(--line);
+}
+.legal h3:first-child{margin-top:0;padding-top:0;border-top:0}
+.legal p{font-size:.93rem;line-height:1.75;color:var(--ink-2);margin:0 0 12px}
+.legal ol,.legal ul{margin:0 0 12px;padding-left:1.25em}
+.legal li{font-size:.93rem;line-height:1.75;color:var(--ink-2);margin-bottom:6px}
+.legal .note{
+  border:1px solid var(--line-2);border-left:2px solid var(--ink);
+  padding:16px 20px;background:var(--ivory);font-size:.88rem;color:var(--ink-2);margin:18px 0;
+}
+.legal table{width:100%;border-collapse:collapse;margin:16px 0 20px;font-size:.88rem}
+.legal th,.legal td{border:1px solid var(--line);padding:11px 13px;text-align:left;vertical-align:top;color:var(--ink-2)}
+.legal th{background:var(--ivory);font-weight:600;color:var(--ink);white-space:nowrap}
+.legal dl{margin:0 0 12px;display:grid;grid-template-columns:auto 1fr;gap:8px 18px;font-size:.93rem}
+.legal dt{font-weight:600;color:var(--ink);white-space:nowrap}
+.legal dd{margin:0;color:var(--ink-2);line-height:1.7}
+.legal .eff{font-size:.86rem;color:var(--ink-3);margin-top:34px}
+@media(max-width:600px){
+  .legal dl{grid-template-columns:1fr;gap:2px 0}
+  .legal dt{margin-top:8px}
+  .legal table,.legal th,.legal td{font-size:.82rem}
+  .legal th{white-space:normal}
+}
