@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" width="480" height="340" role="img" aria-label="Non-GMO ingredients">
+  <title>Non-GMO ingredients</title>
+  <rect x="34" y="62" width="412" height="216" rx="3" fill="none" stroke="#141414" stroke-width="5"/>
+  <line x1="122" y1="196" x2="358" y2="196" stroke="#d8d4ca" stroke-width="3"/>
+  <g fill="#141414" font-family="Arial, Helvetica, 'Liberation Sans', sans-serif" text-anchor="middle">
+    <text x="240" y="174" font-size="64" font-weight="700" textLength="336" lengthAdjust="spacingAndGlyphs">NON-GMO</text>
+    <text x="240" y="234" font-size="25" font-weight="600" textLength="164" lengthAdjust="spacingAndGlyphs">INGREDIENTS</text>
+  </g>
+</svg>
