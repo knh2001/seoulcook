@@ -16,4 +16,5 @@
   <url><loc>https://seoulcook.com/products/low-sodium/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://seoulcook.com/products/vegan/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://seoulcook.com/products/bulk/</loc><lastmod>2026-11-19</lastmod><xhtml:link rel="alternate" hreflang="ko" href="https://seoulcook.com/products/bulk/"/><xhtml:link rel="alternate" hreflang="en" href="https://seoulcook.com/products/bulk/?lang=en"/></url>
+  <url><loc>https://seoulcook.com/catalogues/</loc><lastmod>2026-11-19</lastmod><priority>0.8</priority><xhtml:link rel="alternate" hreflang="ko" href="https://seoulcook.com/catalogues/"/><xhtml:link rel="alternate" hreflang="en" href="https://seoulcook.com/catalogues/?lang=en"/></url>
 </urlset>
