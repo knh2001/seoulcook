@@ -16,21 +16,3 @@
 .biotech-next .btn-row{margin-top:0}
 @media(max-width:900px){.biotech-row{grid-template-columns:1fr}.biotech-hero h1{max-width:24ch}}
 @media(max-width:560px){.biotech-chain{grid-template-columns:repeat(2,minmax(0,1fr))}.biotech-chain li:nth-child(3){border-left:0}.biotech-chain li:nth-child(n+3){border-top:1px solid var(--line-2)}.biotech-next .btn-row{width:100%}}
-
-/* Five food deep-tech capabilities, following the biotechnology introduction. */
-.food-deeptech{border-bottom:1px solid var(--line)}
-.deeptech-header{display:grid;grid-template-columns:1fr 1fr;gap:clamp(30px,6vw,88px);align-items:center}
-.deeptech-heading h2{max-width:20ch;line-height:1.3;text-wrap:balance}
-.deeptech-heading .lead{margin-top:24px;max-width:48ch}
-.deeptech-factory{margin:0}
-.deeptech-factory img{width:100%;height:auto;border:1px solid var(--line);border-radius:var(--r)}
-.deeptech-factory figcaption{margin-top:12px;font-size:.82rem;line-height:1.65;color:var(--ink-2)}
-.deeptech-list{list-style:none;margin-top:clamp(40px,6vw,72px);padding:0;border-top:1px solid var(--line-2)}
-.deeptech-item{display:grid;grid-template-columns:42px minmax(0,1fr);gap:24px;padding:34px 0;border-bottom:1px solid var(--line)}
-.deeptech-number{padding-top:3px;color:var(--tomato);font-size:.85rem;font-weight:600;font-variant-numeric:tabular-nums}
-.deeptech-body{display:grid;grid-template-columns:.85fr 1.35fr;gap:clamp(24px,4vw,54px)}
-.deeptech-body h3{font-size:clamp(1.08rem,1.7vw,1.35rem);line-height:1.5;text-wrap:balance}
-.deeptech-statement{font-size:1rem;line-height:1.85;color:var(--ink)}
-.deeptech-detail{margin-top:14px;font-size:.92rem;line-height:1.8;color:var(--ink-2)}
-@media(max-width:900px){.deeptech-header{grid-template-columns:1fr}.deeptech-factory{max-width:674px}.deeptech-body{grid-template-columns:1fr;gap:14px}}
-@media(max-width:560px){.deeptech-item{grid-template-columns:28px minmax(0,1fr);gap:14px;padding:28px 0}.deeptech-heading h2{max-width:none}}
