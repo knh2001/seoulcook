@@ -1,0 +1,28 @@
+/* SeoulCook's document library shares the site's ivory and charcoal identity. */
+.catalogue-hero h1{max-width:24ch;font-size:clamp(2rem,4.5vw,3.4rem);text-wrap:balance}
+.catalogue-hero .lead{max-width:66ch}
+.catalogue-language{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-top:30px}
+.catalogue-language label{font-size:.85rem;font-weight:600}
+.catalogue-language select{width:200px;max-width:100%;padding:11px 14px;background:var(--white);font-family:inherit}
+.catalogue-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.catalogue-card{display:flex;flex-direction:column;min-width:0;padding:clamp(25px,3vw,36px);border:1px solid var(--line);background:var(--white)}
+.catalogue-card:first-child{background:var(--ivory)}
+.catalogue-card-head{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:48px}
+.catalogue-number{font-size:1.3rem;font-weight:600;color:var(--tomato);font-variant-numeric:tabular-nums}
+.catalogue-format{font-size:.72rem;color:var(--ink-3);letter-spacing:.12em;font-weight:600}
+.catalogue-card h2{font-size:clamp(1.5rem,2.3vw,2rem);line-height:1.3;letter-spacing:-.035em}
+.catalogue-description{margin-top:22px;color:var(--ink-2);font-size:.95rem;line-height:1.8}
+.catalogue-meta{margin-top:auto;padding-top:26px;font-size:.79rem;color:var(--ink-2);line-height:1.6}
+.catalogue-actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:22px}
+.catalogue-actions .btn{font-size:.83rem;padding:11px 16px;flex:1 1 auto}
+.catalogue-actions [aria-disabled="true"]{opacity:.45;pointer-events:none}
+.catalogue-new-window{font-size:.95rem;margin-left:3px}
+.catalogue-print{width:100%;text-align:center;padding:8px 3px;font-size:.85rem;font-weight:500;border-bottom:1px solid var(--line-2)}
+.catalogue-print:hover{border-color:var(--ink)}
+.catalogue-print-note{margin-top:30px;font-size:.83rem;color:var(--ink-2);line-height:1.75}
+.catalogue-print-note p + p{margin-top:7px}
+.catalogue-error{margin-top:24px;padding:18px 22px;border:1px solid var(--line-2);background:var(--ivory);font-size:.9rem}
+.catalogue-error button{margin-left:14px;padding:5px 10px;border:1px solid var(--line-2);background:var(--white);font:inherit;cursor:pointer}
+.catalogue-actions a:focus-visible,.catalogue-print:focus-visible{outline:2px solid var(--tomato);outline-offset:4px}
+@media(max-width:1000px){.catalogue-grid{grid-template-columns:1fr}.catalogue-card-head{margin-bottom:24px}.catalogue-actions{max-width:480px}.catalogue-card h2{font-size:1.8rem}}
+@media(max-width:560px){.catalogue-language{gap:10px}.catalogue-language select{width:100%}.catalogue-card{padding:26px}.catalogue-card h2{font-size:1.6rem}}

@@ -1,0 +1,2 @@
+/* Keep the complete catalogue menu visible within the existing desktop header. */
+@media(min-width:1201px){.hdr .nav > a,.hdr .nav-collections > summary{padding-left:9px;padding-right:9px}.hdr .nav > a::after{left:9px;right:9px}}
