@@ -90,6 +90,17 @@
         "ko": "상품 개발 중",
         "en": "In development"
       }
+    },
+    {
+      "id": "bulk",
+      "name": {
+        "ko": "대용량 컬렉션",
+        "en": "Bulk Collection"
+      },
+      "description": {
+        "ko": "식당 및 업소에서 사용할 수 있는 대용량 소스 컬렉션입니다.",
+        "en": "Bulk-format sauces for restaurants and foodservice businesses."
+      }
     }
   ],
   "products": [
