@@ -35,6 +35,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/site.css">
 
+<link rel="stylesheet" href="/assets/css/collections.css?v=20261118">
 </head>
 <body data-title-ko="개인정보처리방침 | 쌈쌈 SsamSsam · SeoulCook Artisan" data-title-en="Privacy Policy | SsamSsam · SeoulCook Artisan" data-desc-ko="(주)서울쿡 seoulcook.com 개인정보처리방침. 수집 항목, 이용 목적, 보유기간, 정보주체의 권리." data-desc-en="How SeoulCook Artisan handles personal data collected through seoulcook.com.">
 
@@ -43,7 +44,7 @@
     <a class="brand" href="/" aria-label="SeoulCook Artisan">
       <img class="logo-img" src="/assets/img/logo-mark.png" alt="SeoulCook Artisan" width="957" height="97">
     </a>
-    <nav class="nav" id="nav"><a href="/"><span data-ko>브랜드 홈</span><span data-en>Home</span></a><a href="/about/"><span data-ko>브랜드 스토리</span><span data-en>Our Story</span></a><a href="/products/"><span data-ko>제품</span><span data-en>Products</span></a><a href="/recipes/"><span data-ko>레시피</span><span data-en>Recipes</span></a><a href="/b2b/"><span data-ko>B2B · 수출</span><span data-en>B2B & Export</span></a><a href="/contact/"><span data-ko>문의</span><span data-en>Contact</span></a></nav>
+    <nav class="nav" id="nav"><a href="/"><span data-ko>브랜드 홈</span><span data-en>Home</span></a><a href="/about/"><span data-ko>브랜드 스토리</span><span data-en>Our Story</span></a><details class="nav-collections"><summary><span data-ko>컬렉션</span><span data-en>Collections</span></summary><div class="collections-dropdown"><a href="/products/"><span data-ko>모든 컬렉션</span><span data-en>All collections</span></a><a href="/products/ssamssam/"><span data-ko>쌈쌈 컬렉션</span><span data-en>SsamSsam Collection</span></a><a href="/products/halal/"><span data-ko>할랄 컬렉션</span><span data-en>Halal Collection</span></a><a href="/products/kosher/"><span data-ko>코셔 컬렉션</span><span data-en>Kosher Collection</span></a><a href="/products/gat-sauce/"><span data-ko>갓소스 컬렉션</span><span data-en>Gat Sauce Collection</span></a><a href="/products/low-sodium/"><span data-ko>저염 컬렉션</span><span data-en>Low Sodium Collection</span></a><a href="/products/vegan/"><span data-ko>비건 컬렉션</span><span data-en>Vegan Collection</span></a></div></details><a href="/recipes/"><span data-ko>레시피</span><span data-en>Recipes</span></a><a href="/b2b/"><span data-ko>B2B · 수출</span><span data-en>B2B & Export</span></a><a href="/contact/"><span data-ko>문의</span><span data-en>Contact</span></a></nav>
     <div class="hdr-tools">
       <div class="lang" role="group" aria-label="Language / 언어">
         <button id="lang-ko" type="button" aria-pressed="true"  onclick="setLang('ko',true)">KO</button>
@@ -125,14 +126,7 @@
         </ul>
       </div>
       <div>
-        <h4>Products</h4>
-        <ul>
-          <li><a href="/products/#ssamssam">SsamSsam · 쌈쌈</a></li>
-          <li><a href="/products/#hotssam">HotSsam · 핫쌈</a></li>
-          <li><a href="/products/#tossam">ToSsam · 토쌈</a></li>
-          <li><a href="/products/#gossam">GoSsam · 고쌈</a></li>
-          <li><a href="/recipes/"><span data-ko>레시피</span><span data-en>Recipes</span></a></li>
-        </ul>
+        <h4>Collections</h4><ul><li><a href="/products/ssamssam/"><span data-ko>쌈쌈 컬렉션</span><span data-en>SsamSsam Collection</span></a></li><li><a href="/products/halal/"><span data-ko>할랄 컬렉션</span><span data-en>Halal Collection</span></a></li><li><a href="/products/kosher/"><span data-ko>코셔 컬렉션</span><span data-en>Kosher Collection</span></a></li><li><a href="/products/gat-sauce/"><span data-ko>갓소스 컬렉션</span><span data-en>Gat Sauce Collection</span></a></li><li><a href="/products/low-sodium/"><span data-ko>저염 컬렉션</span><span data-en>Low Sodium Collection</span></a></li><li><a href="/products/vegan/"><span data-ko>비건 컬렉션</span><span data-en>Vegan Collection</span></a></li></ul>
       </div>
       <div>
         <h4>Business</h4>
@@ -152,5 +146,6 @@
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script src="/assets/js/site.js" defer></script>
+<script src="/assets/js/collections.js?v=20261118" defer></script>
 </body>
 </html>
