@@ -123,12 +123,14 @@
   .collection-card-art{height:220px;padding:26px 18px}
   .collection-card-copy{padding:22px}
 }
-@media(max-width:900px){
+@media(max-width:1200px){
   .nav-collections{width:100%;border-bottom:1px solid var(--line)}
   .nav-collections > summary{justify-content:space-between;padding:14px 4px;font-size:1.02rem}
   .nav-collections[open] > summary{background:var(--white)}
   .collections-dropdown{position:static;width:100%;min-width:0;max-width:none;padding:0 0 12px 14px;border:0;box-shadow:none}
   .nav .collections-dropdown a{padding:10px 12px;font-size:.92rem;border:0}
+}
+@media(max-width:900px){
   .collection-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
   .collection-card-art{height:240px;padding:30px 22px}
   .collection-card-copy{padding:24px}

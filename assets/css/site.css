@@ -85,7 +85,9 @@ h4{font-size:1rem;letter-spacing:-.015em;font-weight:600}
 .logo-ftr{height:46px;width:auto}
 .brand .bn{font-size:1.22rem;font-weight:700;letter-spacing:-.045em}
 .brand .bs{font-size:.62rem;font-weight:500;letter-spacing:.17em;text-transform:uppercase;color:var(--ink-3)}
-.nav{display:flex;gap:2px;margin-left:auto}
+.nav{display:flex;align-items:center;gap:2px;margin-left:auto;flex-shrink:0}
+.nav > a{white-space:nowrap}
+.nav > a.nav-biotech{max-width:210px;white-space:normal;line-height:1.4;text-wrap:balance}
 .nav a{
   padding:9px 15px;font-size:.9rem;font-weight:500;color:var(--ink-2);
   border-radius:var(--r);transition:color .16s var(--ease);position:relative;
@@ -363,7 +365,7 @@ textarea{min-height:130px;resize:vertical;line-height:1.65}
   .ftr-grid{grid-template-columns:1fr 1fr}
   .nav a{padding:9px 11px;font-size:.855rem}
 }
-@media(max-width:900px){
+@media(max-width:1200px){
   .hdr .wrap{height:64px;gap:12px}
   .logo-img{height:17px}
   .nav{
@@ -377,6 +379,10 @@ textarea{min-height:130px;resize:vertical;line-height:1.65}
   .nav a:last-child{border-bottom:0}
   .burger{display:flex}
   .hdr-tools{margin-left:auto}
+  .nav{align-items:stretch}
+  .nav > a.nav-biotech{width:100%;max-width:none}
+}
+@media(max-width:900px){
   .hero-grid,.split{grid-template-columns:1fr}
   .hero-art{order:-1;min-height:0}
   .hero-art img{width:min(74%,340px)}

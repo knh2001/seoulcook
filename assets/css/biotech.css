@@ -1,0 +1,18 @@
+/* Fermentation bioconversion — the supplied project image stays uncropped. */
+.biotech-hero h1{max-width:27ch;font-size:clamp(2.1rem,4.6vw,3.5rem);line-height:1.16;text-wrap:balance}
+.biotech-hero .biotech-intro{max-width:76ch;line-height:1.85}
+.biotech-visual{padding-bottom:clamp(48px,6vw,80px)}
+.biotech-visual img{width:100%;height:auto;border:1px solid var(--line);border-radius:var(--r)}
+.biotech-visual figcaption{margin-top:14px;font-size:.82rem;line-height:1.65;color:var(--ink-2)}
+.biotech-row{display:grid;grid-template-columns:1fr 1.2fr;gap:clamp(28px,6vw,88px);align-items:start}
+.biotech-row + .biotech-row{margin-top:clamp(44px,6vw,80px);padding-top:clamp(44px,6vw,80px);border-top:1px solid var(--line-2)}
+.biotech-label h2{font-size:clamp(1.6rem,3vw,2.35rem);line-height:1.35;text-wrap:balance}
+.biotech-copy .lead + .lead{margin-top:24px}
+.biotech-chain{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin-top:30px;border:1px solid var(--line-2)}
+.biotech-chain li{padding:17px 10px;text-align:center;font-size:.84rem;font-weight:600;line-height:1.5}
+.biotech-chain li + li{border-left:1px solid var(--line-2)}
+.biotech-next{display:flex;align-items:center;justify-content:space-between;gap:26px;flex-wrap:wrap}
+.biotech-next h2{font-size:clamp(1.6rem,2.5vw,2rem)}
+.biotech-next .btn-row{margin-top:0}
+@media(max-width:900px){.biotech-row{grid-template-columns:1fr}.biotech-hero h1{max-width:24ch}}
+@media(max-width:560px){.biotech-chain{grid-template-columns:repeat(2,minmax(0,1fr))}.biotech-chain li:nth-child(3){border-left:0}.biotech-chain li:nth-child(n+3){border-top:1px solid var(--line-2)}.biotech-next .btn-row{width:100%}}
