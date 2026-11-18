@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18",
+  "updated_at": "2026-11-19",
   "collections": [
     {
       "id": "ssamssam",
@@ -11,7 +11,10 @@
         "ko": "마늘·청양고추·토마토·고수. 하나의 쌈장 베이스에서 시작하는 네 가지 풍미.",
         "en": "Garlic, cheongyang chilli, tomato and cilantro. Four flavours, one ssamjang foundation."
       },
-      "status": null
+      "status": {
+        "ko": "판매 중",
+        "en": "Available"
+      }
     },
     {
       "id": "halal",
@@ -20,12 +23,12 @@
         "en": "Halal Collection"
       },
       "description": {
-        "ko": "다양한 식문화를 위한 핫김치 디핑 소스. 할랄 컬렉션용 제품을 준비하고 있습니다.",
-        "en": "Hot Kimchi Dipping Sauce for diverse food cultures. A new product in development for the Halal Collection."
+        "ko": "다양한 식문화를 위한 핫김치 디핑 소스. 판매 중인 제품과 상세 정보를 확인해 보세요.",
+        "en": "Hot Kimchi Dipping Sauce for diverse food cultures. Explore the product and its details, now available."
       },
       "status": {
-        "ko": "출시 준비 중",
-        "en": "Coming soon"
+        "ko": "판매 중",
+        "en": "Available"
       }
     },
     {
@@ -35,12 +38,12 @@
         "en": "Kosher Collection"
       },
       "description": {
-        "ko": "일상의 디핑에 한식의 개성을 더하는 핫김치. 코셔 컬렉션용 제품을 준비하고 있습니다.",
-        "en": "Korean character for everyday dipping. Hot Kimchi is in development for the Kosher Collection."
+        "ko": "일상의 디핑에 한식의 개성을 더하는 핫김치. 판매 중인 제품과 상세 정보를 확인해 보세요.",
+        "en": "Korean character for everyday dipping. Explore Hot Kimchi and its details, now available."
       },
       "status": {
-        "ko": "출시 준비 중",
-        "en": "Coming soon"
+        "ko": "판매 중",
+        "en": "Available"
       }
     },
     {
@@ -51,11 +54,11 @@
       },
       "description": {
         "ko": "참깨·스모키·떡볶이·불고기·마늘·김치. 디핑부터 바베큐까지 즐기는 여섯 가지 소스.",
-        "en": "Sesame, smoky, tteokbokki, bulgogi, garlic and kimchi. Six sauce concepts for dipping, grilling and everyday meals."
+        "en": "Sesame, smoky, tteokbokki, bulgogi, garlic and kimchi. Six sauces for dipping, grilling and everyday meals."
       },
       "status": {
-        "ko": "출시 준비 중",
-        "en": "Coming soon"
+        "ko": "판매 중",
+        "en": "Available"
       }
     },
     {
@@ -99,7 +102,10 @@
       "collections": [
         "ssamssam"
       ],
-      "status": null,
+      "status": {
+        "ko": "판매 중",
+        "en": "Available"
+      },
       "kicker": {
         "ko": "마늘 + 쌈장",
         "en": "Garlic + Ssamjang"
@@ -132,7 +138,23 @@
             "en": "Product image"
           }
         }
-      ]
+      ],
+      "sales_status": "available",
+      "product_information": {
+        "key_ingredients": {
+          "ko": "한식 된장, 고추장, 다진 마늘, 볶음참깨, 참기름",
+          "en": "Korean doenjang (fermented soybean paste), gochujang (Korean red chilli paste), minced garlic, toasted sesame seeds, sesame oil"
+        },
+        "features": {
+          "ko": "재래식 된장과 고추장 베이스에 마늘과 참기름을 더해 깊고 구수한 감칠맛을 살린 서울쿡 대표 시그니처 정통 쌈장",
+          "en": "SeoulCook's signature traditional ssamjang, combining a traditional doenjang and gochujang base with garlic and sesame oil for deep, earthy umami."
+        },
+        "source_ref": {
+          "document": "서울쿡제품리스트.xlsx",
+          "sheet": "서울쿡제품리스트",
+          "cell": "F2"
+        }
+      }
     },
     {
       "id": "hotssam",
@@ -143,7 +165,10 @@
       "collections": [
         "ssamssam"
       ],
-      "status": null,
+      "status": {
+        "ko": "판매 중",
+        "en": "Available"
+      },
       "kicker": {
         "ko": "청양고추 + 된장",
         "en": "Cheongyang Chili + Doenjang"
@@ -176,7 +201,23 @@
             "en": "Product image"
           }
         }
-      ]
+      ],
+      "sales_status": "available",
+      "product_information": {
+        "key_ingredients": {
+          "ko": "숙성 된장, 청양고춧가루, 발효 고추장, 마늘",
+          "en": "Aged doenjang (fermented soybean paste), Cheongyang chilli powder, fermented gochujang (Korean red chilli paste), garlic"
+        },
+        "features": {
+          "ko": "국산 청양고추의 칼칼하고 알싸한 매운맛을 담아 기름진 삼겹살과 육류 요리의 느끼함을 잡아주는 스파이시 핫 쌈장",
+          "en": "A spicy ssamjang with the sharp, lively heat of Korean-grown Cheongyang chillies, cutting through the richness of pork belly and other meat dishes."
+        },
+        "source_ref": {
+          "document": "서울쿡제품리스트.xlsx",
+          "sheet": "서울쿡제품리스트",
+          "cell": "F4"
+        }
+      }
     },
     {
       "id": "tossam",
@@ -187,7 +228,10 @@
       "collections": [
         "ssamssam"
       ],
-      "status": null,
+      "status": {
+        "ko": "판매 중",
+        "en": "Available"
+      },
       "kicker": {
         "ko": "토마토 + 된장",
         "en": "Tomato + Doenjang"
@@ -220,7 +264,23 @@
             "en": "Product image"
           }
         }
-      ]
+      ],
+      "sales_status": "available",
+      "product_information": {
+        "key_ingredients": {
+          "ko": "토마토 페이스트, 전통 된장, 다진 양파, 허브믹스",
+          "en": "Tomato paste, traditional doenjang (fermented soybean paste), minced onion, mixed herbs"
+        },
+        "features": {
+          "ko": "완숙 토마토의 상큼한 산미와 쌈장의 구수함이 조화된 퓨전 쌈소스로 육류 구이, 파스타, 핑거푸드 디핑에 최적화",
+          "en": "A fusion ssam sauce balancing the fresh acidity of ripe tomatoes with the earthy depth of ssamjang, ideal with grilled meats, pasta and finger foods for dipping."
+        },
+        "source_ref": {
+          "document": "서울쿡제품리스트.xlsx",
+          "sheet": "서울쿡제품리스트",
+          "cell": "F3"
+        }
+      }
     },
     {
       "id": "gossam",
@@ -231,7 +291,10 @@
       "collections": [
         "ssamssam"
       ],
-      "status": null,
+      "status": {
+        "ko": "판매 중",
+        "en": "Available"
+      },
       "kicker": {
         "ko": "고수 + 된장",
         "en": "Cilantro + Doenjang"
@@ -264,7 +327,25 @@
             "en": "Product image"
           }
         }
-      ]
+      ],
+      "sales_status": "available",
+      "product_information": {
+        "key_ingredients": {
+          "ko": "고수, 된장",
+          "en": "Cilantro, doenjang (fermented soybean paste)"
+        },
+        "features": {
+          "ko": "고수의 청량한 향과 된장의 감칠맛을 살린 쌈 소스로, 육류 구이와 고기 쌈에 곁들이기 좋습니다.",
+          "en": "A ssam sauce combining bright cilantro aroma with the savoury depth of doenjang. Serve with grilled meats or Korean lettuce wraps."
+        },
+        "source_ref": {
+          "document": "서울쿡제품리스트.xlsx",
+          "sheet": "서울쿡제품리스트",
+          "cell": "F5",
+          "applied_scope": "Matching doenjang and grilled-meat serving information only",
+          "identity_basis": "Existing cilantro product retained at user instruction; original ingredient and onion-garlic replacement text excluded"
+        }
+      }
     },
     {
       "id": "sesame-ssam",
@@ -293,12 +374,12 @@
         "en": "Nutty sesame character · rounded savoury notes"
       },
       "format": {
-        "ko": "100ml 스퀴즈 보틀(디자인 기준) · 출시 준비 중",
-        "en": "100 ml squeeze bottle (design format) · Coming soon"
+        "ko": "100ml 스퀴즈 보틀 · 판매 중",
+        "en": "100 ml squeeze bottle · Available"
       },
       "status": {
-        "ko": "출시 준비 중",
-        "en": "Coming soon"
+        "ko": "판매 중",
+        "en": "Available"
       },
       "reference_volume_ml": 100,
       "collections": [
@@ -320,7 +401,23 @@
             "en": "100 ml squeeze design"
           }
         }
-      ]
+      ],
+      "sales_status": "available",
+      "product_information": {
+        "key_ingredients": {
+          "ko": "재래식 된장, 통볶음참깨, 참깨 페이스트, 참기름",
+          "en": "Traditional doenjang (fermented soybean paste), whole toasted sesame seeds, sesame paste, sesame oil"
+        },
+        "features": {
+          "ko": "볶음 참깨와 참기름을 듬뿍 넣어 입안 가득 고소한 너티(Nutty) 풍미가 퍼지며, 나물 무침, 샤브샤브, 채소 쌈에 어울리는 고소 쌈장",
+          "en": "A nutty ssamjang generously flavoured with toasted sesame seeds and sesame oil for a mouth-filling sesame character. Pairs with seasoned vegetable dishes, shabu-shabu and vegetable wraps."
+        },
+        "source_ref": {
+          "document": "서울쿡제품리스트.xlsx",
+          "sheet": "서울쿡제품리스트",
+          "cell": "F16"
+        }
+      }
     },
     {
       "id": "smoky-ssam",
@@ -349,12 +446,12 @@
         "en": "Smoky aroma · deep savoury character"
       },
       "format": {
-        "ko": "100ml 스퀴즈 보틀(디자인 기준) · 출시 준비 중",
-        "en": "100 ml squeeze bottle (design format) · Coming soon"
+        "ko": "100ml 스퀴즈 보틀 · 판매 중",
+        "en": "100 ml squeeze bottle · Available"
       },
       "status": {
-        "ko": "출시 준비 중",
-        "en": "Coming soon"
+        "ko": "판매 중",
+        "en": "Available"
       },
       "reference_volume_ml": 100,
       "collections": [
@@ -376,7 +473,23 @@
             "en": "100 ml squeeze design"
           }
         }
-      ]
+      ],
+      "sales_status": "available",
+      "product_information": {
+        "key_ingredients": {
+          "ko": "전통 된장, 고추장, 천연 훈연향(스모크), 흑후추, 양파",
+          "en": "Traditional doenjang (fermented soybean paste), gochujang (Korean red chilli paste), natural smoke flavouring, black pepper, onion"
+        },
+        "features": {
+          "ko": "그윽한 참나무 훈연 향과 전통 된장의 구수한 장맛이 만나 서양식 바비큐와 한식의 완벽한 조화를 이루는 프리미엄 스모키 쌈소스",
+          "en": "A premium smoky ssam sauce combining a mellow oak-smoke aroma with the earthy depth of traditional doenjang, bringing Western-style barbecue and Korean flavours into harmony."
+        },
+        "source_ref": {
+          "document": "서울쿡제품리스트.xlsx",
+          "sheet": "서울쿡제품리스트",
+          "cell": "F15"
+        }
+      }
     },
     {
       "id": "hot-tteokbokki",
@@ -405,17 +518,17 @@
         "en": "Sweet and spicy character · savoury notes"
       },
       "format": {
-        "ko": "100ml 스퀴즈·70ml 보틀(디자인 기준) · 출시 준비 중",
-        "en": "100 ml squeeze / 70 ml bottle (design formats) · Coming soon"
+        "ko": "100ml 스퀴즈·70ml 보틀 · 판매 중",
+        "en": "100 ml squeeze / 70 ml bottle · Available"
       },
       "status": {
-        "ko": "출시 준비 중",
-        "en": "Coming soon"
+        "ko": "판매 중",
+        "en": "Available"
       },
       "reference_volume_ml": 100,
       "format_note": {
-        "ko": "표시된 용량과 패키지는 디자인 기획안이며, 최종 패키지는 출시 시 안내합니다.",
-        "en": "Volumes and packaging shown are design concepts. Final packaging will be announced at launch."
+        "ko": "제품별 용량과 패키지 디자인을 확인해 주세요.",
+        "en": "View the pack sizes and packaging designs for this product."
       },
       "design_options": [
         {
@@ -484,7 +597,23 @@
             "en": "70 ml bottle · Design 02"
           }
         }
-      ]
+      ],
+      "sales_status": "available",
+      "product_information": {
+        "key_ingredients": {
+          "ko": "태양초 고춧가루, 고추장, 양조간장, 양파 농축액, 올리고당",
+          "en": "Sun-dried chilli powder, gochujang (Korean red chilli paste), brewed soy sauce, onion concentrate, oligosaccharide syrup"
+        },
+        "features": {
+          "ko": "국민 간식 떡볶이 특유의 매콤달콤한 비법 양념을 부드러운 디핑 형태로 구현하여 튀김, 어묵, 순대, 너겟 등에 어울리는 디핑소스",
+          "en": "A smooth dipping sauce capturing the signature sweet-and-spicy seasoning of tteokbokki, Korea's much-loved snack. Pairs with fried foods, fish cakes, sundae (Korean blood sausage), nuggets and more."
+        },
+        "source_ref": {
+          "document": "서울쿡제품리스트.xlsx",
+          "sheet": "서울쿡제품리스트",
+          "cell": "F10"
+        }
+      }
     },
     {
       "id": "hot-bulgogi",
@@ -513,17 +642,17 @@
         "en": "Sweet bulgogi-inspired character · a spicy finish"
       },
       "format": {
-        "ko": "100ml 스퀴즈·70ml 보틀(디자인 기준) · 출시 준비 중",
-        "en": "100 ml squeeze / 70 ml bottle (design formats) · Coming soon"
+        "ko": "100ml 스퀴즈·70ml 보틀 · 판매 중",
+        "en": "100 ml squeeze / 70 ml bottle · Available"
       },
       "status": {
-        "ko": "출시 준비 중",
-        "en": "Coming soon"
+        "ko": "판매 중",
+        "en": "Available"
       },
       "reference_volume_ml": 100,
       "format_note": {
-        "ko": "표시된 용량과 패키지는 디자인 기획안이며, 최종 패키지는 출시 시 안내합니다.",
-        "en": "Volumes and packaging shown are design concepts. Final packaging will be announced at launch."
+        "ko": "제품별 용량과 패키지 디자인을 확인해 주세요.",
+        "en": "View the pack sizes and packaging designs for this product."
       },
       "design_options": [
         {
@@ -592,7 +721,23 @@
             "en": "70 ml bottle · Design 02"
           }
         }
-      ]
+      ],
+      "sales_status": "available",
+      "product_information": {
+        "key_ingredients": {
+          "ko": "양조간장, 국산 사과·배 퓨레, 고춧가루, 다진 마늘, 훈연향",
+          "en": "Brewed soy sauce, Korean-grown apple and pear purées, chilli powder, minced garlic, smoke flavouring"
+        },
+        "features": {
+          "ko": "달콤짭조름한 정통 불고기 양념에 매콤한 불맛을 더해 닭꼬치, 햄버거 패티, 고기구이에 어울리는 감칠맛 디핑소스",
+          "en": "A savoury dipping sauce that adds spicy, flame-grilled character to the sweet-and-salty flavour of traditional bulgogi seasoning. Pairs with chicken skewers, burger patties and grilled meats."
+        },
+        "source_ref": {
+          "document": "서울쿡제품리스트.xlsx",
+          "sheet": "서울쿡제품리스트",
+          "cell": "F11"
+        }
+      }
     },
     {
       "id": "garlic-ssam",
@@ -621,12 +766,12 @@
         "en": "Bold garlic character · savoury ssam notes"
       },
       "format": {
-        "ko": "100ml 스퀴즈 보틀(디자인 기준) · 출시 준비 중",
-        "en": "100 ml squeeze bottle (design format) · Coming soon"
+        "ko": "100ml 스퀴즈 보틀 · 판매 중",
+        "en": "100 ml squeeze bottle · Available"
       },
       "status": {
-        "ko": "출시 준비 중",
-        "en": "Coming soon"
+        "ko": "판매 중",
+        "en": "Available"
       },
       "reference_volume_ml": 100,
       "collections": [
@@ -648,7 +793,23 @@
             "en": "100 ml squeeze design"
           }
         }
-      ]
+      ],
+      "sales_status": "available",
+      "product_information": {
+        "key_ingredients": {
+          "ko": "숙성 된장, 국산 생마늘, 구운 마늘 페이스트, 참기름",
+          "en": "Aged doenjang (fermented soybean paste), Korean-grown raw garlic, roasted garlic paste, sesame oil"
+        },
+        "features": {
+          "ko": "생마늘의 알싸함과 구운 마늘의 깊고 달큰한 풍미를 쌈장에 듬뿍 담아 한국인의 입맛에 최적화된 프리미엄 갈릭 쌈장",
+          "en": "A premium garlic ssamjang with plenty of the pungency of raw garlic and the deep, sweet flavour of roasted garlic, developed to suit Korean tastes."
+        },
+        "source_ref": {
+          "document": "서울쿡제품리스트.xlsx",
+          "sheet": "서울쿡제품리스트",
+          "cell": "F14"
+        }
+      }
     },
     {
       "id": "hot-kimchi",
@@ -677,17 +838,17 @@
         "en": "Spicy and tangy character · kimchi-inspired savoury notes"
       },
       "format": {
-        "ko": "100ml 스퀴즈·70ml 보틀(디자인 기준) · 출시 준비 중",
-        "en": "100 ml squeeze / 70 ml bottle (design formats) · Coming soon"
+        "ko": "100ml 스퀴즈·70ml 보틀 · 판매 중",
+        "en": "100 ml squeeze / 70 ml bottle · Available"
       },
       "status": {
-        "ko": "출시 준비 중",
-        "en": "Coming soon"
+        "ko": "판매 중",
+        "en": "Available"
       },
       "reference_volume_ml": 100,
       "format_note": {
-        "ko": "표시된 용량과 패키지는 디자인 기획안이며, 최종 패키지는 출시 시 안내합니다.",
-        "en": "Volumes and packaging shown are design concepts. Final packaging will be announced at launch."
+        "ko": "제품별 용량과 패키지 디자인을 확인해 주세요.",
+        "en": "View the pack sizes and packaging designs for this product."
       },
       "design_options": [
         {
@@ -756,7 +917,23 @@
             "en": "70 ml bottle · Design 02"
           }
         }
-      ]
+      ],
+      "sales_status": "available",
+      "product_information": {
+        "key_ingredients": {
+          "ko": "숙성 김치 농축액, 발효 고춧가루, 다진 마늘, 생강, 사과식초",
+          "en": "Aged kimchi concentrate, fermented chilli powder, minced garlic, ginger, apple cider vinegar"
+        },
+        "features": {
+          "ko": "숙성 김치 특유의 시원하고 칼칼한 산미와 감칠맛을 살려 전 요리, 삼겹살, 치킨의 느끼함을 잡아주는 만능 K-디핑소스",
+          "en": "A versatile Korean dipping sauce highlighting the refreshing, sharp acidity and umami of aged kimchi, cutting through the richness of jeon (Korean savoury pancakes), pork belly and chicken."
+        },
+        "source_ref": {
+          "document": "서울쿡제품리스트.xlsx",
+          "sheet": "서울쿡제품리스트",
+          "cell": "F12"
+        }
+      }
     },
     {
       "id": "hot-kimchi-dipping",
@@ -769,8 +946,8 @@
         "en": "Kimchi-inspired flavour for everyday dipping"
       },
       "description": {
-        "ko": "김치의 매콤새콤한 풍미를 세계인의 디핑 문화로 이어가는 제품입니다. 다양한 식문화의 고객이 감자튀김과 샌드위치, 그릴 요리에서 한식 풍미를 즐길 수 있도록 할랄·코셔 컬렉션용으로 준비하고 있습니다.",
-        "en": "A kimchi-inspired sauce bringing spicy, tangy Korean flavour to everyday dipping. Being developed for the Halal and Kosher collections, it is designed for fries, sandwiches and grilled dishes across different food cultures."
+        "ko": "김치의 매콤새콤한 풍미를 세계인의 디핑 문화로 이어가는 제품입니다. 다양한 식문화의 고객이 감자튀김과 샌드위치, 그릴 요리에서 한식 풍미를 즐길 수 있는 핫김치 디핑 소스입니다.",
+        "en": "A kimchi-inspired sauce bringing spicy, tangy Korean flavour to everyday dipping. Enjoy it with fries, sandwiches and grilled dishes across different food cultures."
       },
       "target": {
         "ko": "다양한 식문화의 고객, 김치 풍미·글로벌 디핑 소스 애호가",
@@ -785,17 +962,17 @@
         "en": "Spicy, tangy kimchi-inspired flavour · savoury character"
       },
       "format": {
-        "ko": "130ml 스퀴즈 보틀(디자인 기준) · 출시 준비 중",
-        "en": "130 ml squeeze bottle (design format) · Coming soon"
+        "ko": "130ml 스퀴즈 보틀 · 판매 중",
+        "en": "130 ml squeeze bottle · Available"
       },
       "status": {
-        "ko": "출시 준비 중",
-        "en": "Coming soon"
+        "ko": "판매 중",
+        "en": "Available"
       },
       "reference_volume_ml": 130,
       "product_note": {
-        "ko": "할랄·코셔 컬렉션용 개발 제품이며, 인증 및 최종 규격은 확정 후 안내합니다.",
-        "en": "In development for the Halal and Kosher collections. Certification details and final specifications will be shared once confirmed."
+        "ko": "할랄·코셔 인증 정보는 확인 후 안내합니다. 관련 인증의 상세 정보는 문의해 주세요.",
+        "en": "Halal and kosher certification information will be shared once confirmed. Please contact us for certification details."
       },
       "collections": [
         "halal",
@@ -817,13 +994,25 @@
             "en": "130 ml design"
           }
         }
-      ]
+      ],
+      "sales_status": "available",
+      "product_information": {
+        "key_ingredients": {
+          "ko": "무젓갈 숙성 김치 농축액, 발효 고춧가루, 사과식초, 다진 마늘, 생강",
+          "en": "Aged kimchi concentrate made without jeotgal (salted fermented seafood), fermented chilli powder, apple cider vinegar, minced garlic, ginger"
+        },
+        "features": {
+          "ko": "동물성 젓갈과 주정을 배제한 할랄 김치 베이스로 시원하고 칼칼한 산미와 감칠맛을 살려 튀김, 구이, 치킨에 어울리는 만능 할랄 K-디핑소스",
+          "en": "A versatile Korean dipping sauce developed for halal use, with a kimchi base formulated without animal-derived jeotgal (salted fermented seafood) or added ethyl alcohol. Its refreshing, sharp acidity and umami pair with fried foods, grilled dishes and chicken."
+        },
+        "source_ref": {
+          "document": "서울쿡제품리스트.xlsx",
+          "sheet": "서울쿡제품리스트",
+          "cell": "F35"
+        }
+      }
     }
   ],
-  "development_note": {
-    "ko": "신제품의 이미지와 풍미·활용 안내는 개발 기획안 기준입니다. 표시된 용량과 패키지는 디자인 기획안이며, 최종 패키지·원료·영양정보·보관방법·소비기한은 출시 시 안내합니다.",
-    "en": "New-product images, flavour descriptions and serving suggestions reflect the development concept. Volumes and packaging shown are design concepts. Final packaging, ingredients, nutrition, storage instructions and shelf life will be provided at launch."
-  },
   "image_provenance": [
     {
       "asset": "collections-20261118.jpeg",
@@ -840,5 +1029,14 @@
       "sha256": "9fdb245e95f70d4243b5d626ed8b368e9359c3c6ca1eee05d8f240650a9d617c",
       "source": "User supplied product design, 2026-11-18; original pixels preserved"
     }
-  ]
+  ],
+  "product_information_source": {
+    "document": "서울쿡제품리스트.xlsx",
+    "sheet": "서울쿡제품리스트",
+    "sha256": "f9e1c688196ab8fee1cda4f31955db667faace3b68b5bb32fe8cdeebab1395ab"
+  },
+  "product_information_note": {
+    "ko": "주요 원료와 제품 특징을 안내합니다. 전체 원재료·영양정보·보관방법·소비기한은 제품별 표시사항을 확인해 주세요.",
+    "en": "Key ingredients and product features are provided here. Check the product label for the complete ingredient list, nutrition, storage instructions and shelf life."
+  }
 }
