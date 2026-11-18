@@ -104,6 +104,19 @@
 .product-design-grid .product-cutout{width:min(100%,140px)}
 .product-design-grid figcaption{font-size:.82rem;color:var(--ink-2);text-align:center}
 
+.product-information{margin-top:36px;padding:28px;border:1px solid var(--line);background:var(--white)}
+.product-information h3{font-size:1.08rem;margin-bottom:22px}
+.product-facts{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.45fr);gap:28px}
+.product-facts > div{min-width:0}
+.product-facts dt{font-size:.8rem;font-weight:600;color:var(--ink-2);margin-bottom:10px}
+.product-facts dd{margin:0;font-size:.95rem;line-height:1.85;color:var(--ink-2);overflow-wrap:break-word}
+.is-available{color:var(--cilantro)}
+.product-status.is-available::before,.collection-status.is-available::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
+@media(max-width:760px){
+  .product-information{padding:22px;margin-top:28px}
+  .product-facts{grid-template-columns:minmax(0,1fr);gap:22px}
+}
+
 @media(max-width:1080px) and (min-width:901px){
   .nav-collections > summary{padding:9px 11px;font-size:.855rem}
   .collection-grid{gap:18px}
