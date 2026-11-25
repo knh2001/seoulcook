@@ -60,6 +60,6 @@ responsive pages, the nine-language selector and printable-page readiness.
 ## Rollback
 
 Pre-refresh production checkpoint: `9c5a13b7fe2f2b106582bafae364c99277ed4b3d`.
-Revert the two release commits, preserving later unrelated changes, to restore
+Revert the release commits, preserving later unrelated changes, to restore
 the prior HTML, catalogue data and document manifest. The old dated assets are
 not deleted. Verify Cloudflare deployment and the restored public pages.

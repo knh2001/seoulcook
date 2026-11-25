@@ -221,6 +221,7 @@ def update_web(assets):
                 p['description'] = pair('식당·업소의 조리, 디핑과 메뉴 운영에 사용할 수 있는 ' + NAMES[ident][0] + ' 대용량 패키지입니다.',
                                         NAMES[ident][1] + ' in bulk packaging for restaurant preparation, dipping and foodservice menus.')
                 p['bulk_flavour'] = ident; bulk_products.append(p)
+                p['images']=[lookup[(g,ident)] for g in ['gat-2kg','gat-20kg','low-sugar-vegan-2kg','low-sugar-vegan-20kg']]
             replace_main(tree, bulk_products, lambda p: [lookup[(g, p['bulk_flavour'])] for g in ['gat-2kg', 'gat-20kg', 'low-sugar-vegan-2kg', 'low-sugar-vegan-20kg']])
         if route.startswith('/products/') and route.count('/') == 3:
             cid = route.split('/')[2]
