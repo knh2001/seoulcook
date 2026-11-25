@@ -517,7 +517,7 @@
       "filename": "seoulcook-company-profile-ar-20261125.pdf",
       "pages": 7,
       "bytes": 4334721,
-      "sha256": "101ff9abee9bd7d77c6f87cd82309bf2d8291b9c9198568eae27a9fba2c37230",
+      "sha256": "13024f18769d867295094ca946d0ee5e4ad5485e2ecc289ef9a1942984c0ddf9",
       "print_pages": [
         "/assets/catalogues/print-20261125/company-profile-ar-01.svg",
         "/assets/catalogues/print-20261125/company-profile-ar-02.svg",
@@ -538,8 +538,8 @@
       "url": "/assets/catalogues/seoulcook-product-catalogue-ar-20261125.pdf",
       "filename": "seoulcook-product-catalogue-ar-20261125.pdf",
       "pages": 21,
-      "bytes": 21397775,
-      "sha256": "9d5a0a1761f5c077c46ccb90825aed3724b8282caf7f50e8571a45a800e56610",
+      "bytes": 21397832,
+      "sha256": "27fcb0542568d92815cd199cab3b6e8b6f5e448a3dab96e040b249eba1206394",
       "print_pages": [
         "/assets/catalogues/print-20261125/product-catalogue-ar-01.svg",
         "/assets/catalogues/print-20261125/product-catalogue-ar-02.svg",
@@ -574,8 +574,8 @@
       "url": "/assets/catalogues/seoulcook-company-product-catalogue-ar-20261125.pdf",
       "filename": "seoulcook-company-product-catalogue-ar-20261125.pdf",
       "pages": 28,
-      "bytes": 22284874,
-      "sha256": "f492d012b7918bb9d9b2b514208e647a4a248e5eb0cb0e43671f0d0dbadab94b",
+      "bytes": 22284931,
+      "sha256": "10b4d65515a14a3473dd63b7f05db17b196ef383d13097a8b7b015415023f9f1",
       "print_pages": [
         "/assets/catalogues/print-20261125/company-profile-ar-01.svg",
         "/assets/catalogues/print-20261125/company-profile-ar-02.svg",

@@ -1598,11 +1598,11 @@
 <use data-text="ﻟ" xlink:href="#font_8_5" transform="matrix(9.2,0,0,-9.2,421.05693,673.6416)" fill="#141414"/>
 <use data-text="ﺍ" xlink:href="#font_8_2" transform="matrix(9.2,0,0,-9.2,423.00733,673.6416)" fill="#141414"/>
 <path transform="matrix(1,0,0,-1,0,841.8898)" stroke-width=".45" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#dedbd3" d="M48.18898 79.37008H547.0866"/>
-<path transform="matrix(1,0,0,-1,0,841.8898)" d="M0 71.88977H166V693.8898H0Z" fill="#ffffff"/>
-<g transform="matrix(.10742,0,0,.10742,48,194.0566)">
+<path transform="matrix(1,0,0,-1,0,841.8898)" d="M429.2756 71.88977H595.27566V693.8898H429.2756Z" fill="#ffffff"/>
+<g transform="matrix(.10742,0,0,.10742,437.27558,194.05657)">
 <image id="image_10" width="1024" height="1535" xlink:href="/assets/catalogues/print-20261125/images/61e0c7e602103de9b417e75b.jpg"/>
 </g>
-<g transform="matrix(.10913001,0,0,.10913,48,489.37623)">
+<g transform="matrix(.10913001,0,0,.10913,437.27558,489.37623)">
 <image id="image_11" width="1008" height="1560" xlink:href="/assets/catalogues/print-20261125/images/9bfd4d2d8af869fbf234abfd.jpg"/>
 </g>
 <path transform="matrix(1,0,0,-1,0,841.8898)" d="M0 0H595.2756V55.8898H0Z" fill="#ffffff"/>

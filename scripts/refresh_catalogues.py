@@ -8,7 +8,7 @@ from pathlib import Path
 from html import escape
 from PIL import Image
 from collections import defaultdict
-import base64, hashlib, io, json, re
+import argparse, base64, hashlib, io, json, re
 import pymupdf as fitz
 from lxml import etree
 
@@ -114,8 +114,10 @@ def overview(lang):
     for i,(name,detail) in enumerate(zip(I18N[lang]['collections'],details)):
         y=215+i*65
         p.draw_line(fitz.Point(48,y+52),fitz.Point(547,y+52),color=(.86,.86,.83),width=.5)
-        textbox(p,(48,y,280,y+50),name,lang,12,True)
-        textbox(p,(290,y,547,y+50),detail,lang,10,color='#60605a')
+        name_box=(290,y,547,y+50) if lang=='ar' else (48,y,280,y+50)
+        detail_box=(48,y,280,y+50) if lang=='ar' else (290,y,547,y+50)
+        textbox(p,name_box,name,lang,12,True)
+        textbox(p,detail_box,detail,lang,10,color='#60605a')
     return d
 
 
@@ -164,21 +166,30 @@ def refresh_counts(doc,lang,company=False):
                         textbox(page,(rect.x0,rect.y0-3,rect.x1+30,rect.y1+10),'19','en',s['size'],True,color='#ba392c')
 
 
-def replace_main_product_photos(doc):
+def replace_main_product_photos(doc,lang):
+    def rect(coords):
+        x0,y0,x1,y1=coords
+        return fitz.Rect(W-x1,y0,W-x0,y1) if lang=='ar' else fitz.Rect(coords)
     pairs=[['sesame-ssam','smoky-ssam'],['hot-tteokbokki','hot-bulgogi'],['garlic-ssam','hot-kimchi']]
     for pi,flavours in zip([4,5,6],pairs):
         p=doc[pi]
         # Cover only the former cropped image column, not translated copy.
-        p.draw_rect(fitz.Rect(0,148,166,770),fill=(1,1,1),color=None,overlay=True)
+        column=rect((0,148,166,770))
+        for block in p.get_text('dict')['blocks']:
+            for line in block.get('lines',[]):
+                for span in line['spans']:
+                    if fitz.Rect(span['bbox']).intersects(column):
+                        assert re.fullmatch(r'[\s\dml]+',span['text']),('Photo column overlaps source copy',lang,span['text'])
+        p.draw_rect(column,fill=(1,1,1),color=None,overlay=True)
         for row,f in enumerate(flavours):
             y=154+row*298
             if ('bottle-original',f) in LOOKUP:
-                place_image(p,(48,y+20,100,y+245),LOOKUP[('gat-original',f)])
-                place_image(p,(106,y+20,158,y+245),LOOKUP[('bottle-original',f)])
-                textbox(p,(48,y,103,y+18),'100 ml','en',7,align='center')
-                textbox(p,(106,y,161,y+18),'70 ml','en',7,align='center')
+                place_image(p,rect((48,y+20,100,y+245)),LOOKUP[('gat-original',f)])
+                place_image(p,rect((106,y+20,158,y+245)),LOOKUP[('bottle-original',f)])
+                textbox(p,rect((48,y,103,y+18)),'100 ml','en',7,align='center')
+                textbox(p,rect((106,y,161,y+18)),'70 ml','en',7,align='center')
             else:
-                place_image(p,(48,y,158,y+245),LOOKUP[('gat-original',f)])
+                place_image(p,rect((48,y,158,y+245)),LOOKUP[('gat-original',f)])
     p=doc[8];p.draw_rect(fitz.Rect(45,598,550,763),fill=(1,1,1),color=None,overlay=True)
     for i,a in enumerate([LOOKUP[(g,f)] for f in ['hot-kimchi','hot-tteokbokki','hot-bulgogi'] for g in ['bottle-original','bottle-halal']]):
         place_image(p,(48+i*83,606,122+i*83,754),a)
@@ -232,13 +243,19 @@ def print_svg(doc,path):
     return urls
 
 
-def build():
+def build(languages=None):
+    languages=languages or LANGS
     old_manifest=json.loads((OUT/f'manifest-{OLD}.json').read_text());records=[];coverage={}
-    for lang in LANGS:
+    if set(languages)!=set(LANGS):
+        active=json.loads((OUT/f'manifest-{NEW}.json').read_text())
+        records=[r for r in active['documents'] if r['language'] not in languages]
+        previous_report=ROOT.parent/'outputs/2026-11-25-product-image-refresh/catalogue-build.json'
+        if previous_report.exists():coverage=json.loads(previous_report.read_text())['coverage']
+    for lang in languages:
         company=fitz.open(OUT/f'seoulcook-company-profile-{lang}-{OLD}.pdf')
         product=fitz.open(OUT/f'seoulcook-product-catalogue-{lang}-{OLD}.pdf')
         refresh_counts(company,lang,True);refresh_counts(product,lang)
-        replace_main_product_photos(product)
+        replace_main_product_photos(product,lang)
         replace_page(product,1,overview(lang));replace_page(product,10,format_overview(lang))
         samples=[LOOKUP[('gat-original',f)] for f in list(NAMES)[:7]]
         added=gallery_page(lang,I18N[lang]['lineup'],samples);company.insert_pdf(added);added.close()
@@ -246,10 +263,10 @@ def build():
                 ['low-sugar-vegan-100ml'],['low-sugar-vegan-2kg'],['low-sugar-vegan-20kg'],['legacy']]
         covered=[]
         for i,gs in enumerate(groups):
-            selected=sorted([a for a in ASSETS if a['group'] in gs],key=lambda a:(ORDER.index(a['flavour']),gs.index(a['group'])))
-            assert 1<=len(selected)<=8
-            extra=gallery_page(lang,I18N[lang]['groups'][i],selected)
-            product.insert_pdf(extra);extra.close();covered.extend(a['id'] for a in selected)
+            group_assets=sorted([a for a in ASSETS if a['group'] in gs],key=lambda a:(ORDER.index(a['flavour']),gs.index(a['group'])))
+            assert 1<=len(group_assets)<=8
+            extra=gallery_page(lang,I18N[lang]['groups'][i],group_assets)
+            product.insert_pdf(extra);extra.close();covered.extend(a['id'] for a in group_assets)
         assert set(covered)=={a['id'] for a in ASSETS}
         coverage[lang]={'unique_packaging_images':len(set(covered)),'company_pages':len(company),'product_pages':len(product)}
         ctitle=next(r['title'] for r in old_manifest['documents'] if r['language']==lang and r['id']=='company')
@@ -272,6 +289,7 @@ def build():
                            'subtitle':record.get('subtitle','').replace('11','19'),'updated_at':'2026-11-25'})
             records.append(record);doc.close()
         print(lang,coverage[lang],flush=True)
+    records.sort(key=lambda r:(LANGS.index(r['language']),['company','products','complete'].index(r['id'])))
     manifest={'updated_at':'2026-11-25','format':'A4','documents':records,'image_refresh':{'unique_source_images':67,'product_count':19,'source_archive_images':73}}
     (OUT/f'manifest-{NEW}.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
     for name in ['catalogues','catalogue-print']:
@@ -282,9 +300,11 @@ def build():
         text=re.sub(r'(seoulcook-[a-z-]+-(?:ko|en|es|zh|ja|ar|fr|de|it)-)'+OLD+r'(\.pdf)',r'\g<1>'+NEW+r'\2',text)
         path.write_text(text)
     report={'coverage':coverage,'pdf_count':len(records),'pdf_max_bytes':max(r['bytes'] for r in records),
-            'text_boxes':len(CHECKS),'min_text_scale':min(c['scale'] for c in CHECKS),'original_translations_retained':True}
+            'languages_built_this_run':languages,'text_boxes_this_run':len(CHECKS),'min_text_scale_this_run':min(c['scale'] for c in CHECKS),'original_translations_retained':True}
     report_path=ROOT.parent/'outputs/2026-11-25-product-image-refresh/catalogue-build.json'
     report_path.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps(report,ensure_ascii=False,indent=2))
 
 
-if __name__=='__main__':build()
+if __name__=='__main__':
+    parser=argparse.ArgumentParser();parser.add_argument('--language',choices=LANGS);args=parser.parse_args()
+    build([args.language] if args.language else None)
