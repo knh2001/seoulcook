@@ -8,3 +8,5 @@
 .image-refresh-gallery{margin-bottom:36px}
 @media(max-width:900px){.image-variant-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.image-variant-grid img{height:230px}}
 @media(max-width:560px){.image-variant-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.image-variant-grid img{height:210px}.image-refresh-art{min-height:340px}.image-refresh-art>img{max-height:360px}}
+
+.btn[href^="/products/packaging/"]{max-width:100%;white-space:normal}
