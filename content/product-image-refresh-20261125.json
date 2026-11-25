@@ -1,0 +1,1226 @@
+{
+  "updated_at": "2026-11-25",
+  "archive_image_count": 73,
+  "unique_image_count": 67,
+  "product_count": 19,
+  "assets": [
+    {
+      "id": "bottle-halal-hot-tteokbokki-433803e194",
+      "group": "bottle-halal",
+      "flavour": "hot-tteokbokki",
+      "format": "70ml",
+      "src": "/assets/img/products-20261125/bottle-halal-hot-tteokbokki-433803e194.jpg",
+      "width": 450,
+      "height": 1024,
+      "source_sha256": "433803e19422f009b213d05ab909eb3fff3ae0c3a6ed6f70d957d62e6d1fdfdb",
+      "sha256": "38af8cc5954038eb5287b695f97a0e14e3e22865721fc58524aeb8c5b5e5b1d8",
+      "source_members": [
+        "70ml/할랄 글루텐프리 ver/핫떡볶이_70ml_할랄글루텐프리.jpg"
+      ],
+      "label": {
+        "ko": "핫떡볶이 · 70ml · 할랄·글루텐프리 표기 패키지",
+        "en": "Hot Tteokbokki · 70 ml · Halal / gluten-free label design"
+      }
+    },
+    {
+      "id": "bottle-original-hot-tteokbokki-c0a92e601d",
+      "group": "bottle-original",
+      "flavour": "hot-tteokbokki",
+      "format": "70ml",
+      "src": "/assets/img/products-20261125/bottle-original-hot-tteokbokki-c0a92e601d.jpg",
+      "width": 450,
+      "height": 1024,
+      "source_sha256": "c0a92e601de8cbd60d3d64ae3e5294ad6d8e8a52577a6aee858b4bbf03a064e6",
+      "sha256": "d0983d2b74d1a9e4773ad75002d61429cf2f15902dcea0815196aa77099a5dce",
+      "source_members": [
+        "70ml/기본/핫떡볶이_70ml_기본.jpg"
+      ],
+      "label": {
+        "ko": "핫떡볶이 · 70ml · 기본 패키지",
+        "en": "Hot Tteokbokki · 70 ml · Original packaging"
+      }
+    },
+    {
+      "id": "bottle-halal-hot-kimchi-82eb032ebb",
+      "group": "bottle-halal",
+      "flavour": "hot-kimchi",
+      "format": "70ml",
+      "src": "/assets/img/products-20261125/bottle-halal-hot-kimchi-82eb032ebb.jpg",
+      "width": 450,
+      "height": 1024,
+      "source_sha256": "82eb032ebbcd5166cd0aee62536c2fe4e1ba205897e9d9cd208c56bad1b07bae",
+      "sha256": "b35b9f18478889b8daf4d79bd1e2e289836db3178684bca13db100c5e729a5c0",
+      "source_members": [
+        "70ml/할랄 글루텐프리 ver/핫김치_70ml_할랄글루텐프리.jpg"
+      ],
+      "label": {
+        "ko": "핫김치 · 70ml · 할랄·글루텐프리 표기 패키지",
+        "en": "Hot Kimchi · 70 ml · Halal / gluten-free label design"
+      }
+    },
+    {
+      "id": "bottle-original-hot-kimchi-be99a3dda6",
+      "group": "bottle-original",
+      "flavour": "hot-kimchi",
+      "format": "70ml",
+      "src": "/assets/img/products-20261125/bottle-original-hot-kimchi-be99a3dda6.jpg",
+      "width": 450,
+      "height": 1024,
+      "source_sha256": "be99a3dda67222946c3e535ed25d330f31a82f524fbdee046ce12b04dce011a3",
+      "sha256": "b3f79247d38ab764b8d0ea362dfa90574f0af2abe09e2e90c471f15fae775300",
+      "source_members": [
+        "70ml/기본/핫김치_70ml_기본.jpg"
+      ],
+      "label": {
+        "ko": "핫김치 · 70ml · 기본 패키지",
+        "en": "Hot Kimchi · 70 ml · Original packaging"
+      }
+    },
+    {
+      "id": "bottle-halal-hot-bulgogi-3bd01f9d7b",
+      "group": "bottle-halal",
+      "flavour": "hot-bulgogi",
+      "format": "70ml",
+      "src": "/assets/img/products-20261125/bottle-halal-hot-bulgogi-3bd01f9d7b.jpg",
+      "width": 450,
+      "height": 1024,
+      "source_sha256": "3bd01f9d7ba41ae8b300159b5bcd71481bb47a87960251f43a9b312b4e02fb57",
+      "sha256": "99432bb180e1d082e62eb71e4a7ef23dad07644e2d287b4a389a41e7a820d992",
+      "source_members": [
+        "70ml/할랄 글루텐프리 ver/핫불고기_70ml_할랄글루텐프리.jpg"
+      ],
+      "label": {
+        "ko": "핫불고기 · 70ml · 할랄·글루텐프리 표기 패키지",
+        "en": "Hot Bulgogi · 70 ml · Halal / gluten-free label design"
+      }
+    },
+    {
+      "id": "bottle-original-hot-bulgogi-e60d0a1834",
+      "group": "bottle-original",
+      "flavour": "hot-bulgogi",
+      "format": "70ml",
+      "src": "/assets/img/products-20261125/bottle-original-hot-bulgogi-e60d0a1834.jpg",
+      "width": 450,
+      "height": 1024,
+      "source_sha256": "e60d0a1834b373f3069b048931874a8f109e6858df8fda2426027b2e56f96d8b",
+      "sha256": "a2067a1bae76132b95f109f35a3b292217783803bb7ccb10700ff920e85e7efb",
+      "source_members": [
+        "70ml/기본/핫불고기_70ml_기본.jpg"
+      ],
+      "label": {
+        "ko": "핫불고기 · 70ml · 기본 패키지",
+        "en": "Hot Bulgogi · 70 ml · Original packaging"
+      }
+    },
+    {
+      "id": "gat-2kg-hot-kimchi-fa11521693",
+      "group": "gat-2kg",
+      "flavour": "hot-kimchi",
+      "format": "2kg",
+      "src": "/assets/img/products-20261125/gat-2kg-hot-kimchi-fa11521693.jpg",
+      "width": 719,
+      "height": 1024,
+      "source_sha256": "fa115216935a26c05c7a817c4186659be3ee7297ad95b68d909b1056011812b9",
+      "sha256": "083b71a4c6823f35c6efe5c70eb5624d1c22922c82614f0098455157a9c78847",
+      "source_members": [
+        "갓시리즈/벌크용_2kg/핫김치_2kg.jpg"
+      ],
+      "label": {
+        "ko": "핫김치 · 갓소스 · 업소용 2kg",
+        "en": "Hot Kimchi · Gat Sauce · Foodservice 2 kg"
+      }
+    },
+    {
+      "id": "gat-original-hot-kimchi-b878231771",
+      "group": "gat-original",
+      "flavour": "hot-kimchi",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/gat-original-hot-kimchi-b878231771.jpg",
+      "width": 1008,
+      "height": 1560,
+      "source_sha256": "b878231771828a0a1d8ec3bc68feec6b9f8923108278b70ca878a48d2895b37a",
+      "sha256": "2e07ae936b320e4a87f4500def2e2f6feb726f48fb7510eac4470e52d4608a1c",
+      "source_members": [
+        "갓시리즈/기본/핫김치_기본.png"
+      ],
+      "label": {
+        "ko": "핫김치 · 갓소스 · 기본 패키지",
+        "en": "Hot Kimchi · Gat Sauce · Original packaging"
+      }
+    },
+    {
+      "id": "gat-20kg-smoky-ssam-6643750ce4",
+      "group": "gat-20kg",
+      "flavour": "smoky-ssam",
+      "format": "20kg",
+      "src": "/assets/img/products-20261125/gat-20kg-smoky-ssam-6643750ce4.jpg",
+      "width": 828,
+      "height": 1024,
+      "source_sha256": "6643750ce4d830701e62fe4122ae8456e053082553efba8234da9d01295497a4",
+      "sha256": "b93900d212f65cf8041d891574bd0fd27d0679354789d695292b9f0537561ffc",
+      "source_members": [
+        "갓시리즈/식자재용_20kg/스모키쌈_20kg.jpg"
+      ],
+      "label": {
+        "ko": "스모키쌈 · 갓소스 · 식자재용 20kg",
+        "en": "Smoky Ssam · Gat Sauce · Foodservice 20 kg"
+      }
+    },
+    {
+      "id": "gat-20kg-hot-bulgogi-2564210ccd",
+      "group": "gat-20kg",
+      "flavour": "hot-bulgogi",
+      "format": "20kg",
+      "src": "/assets/img/products-20261125/gat-20kg-hot-bulgogi-2564210ccd.jpg",
+      "width": 828,
+      "height": 1024,
+      "source_sha256": "2564210ccdd9fd6267e3d23a98b33307d61da2c5f576c90b7d3bb06c3759980c",
+      "sha256": "c27f43cc641e69f1a98f48249cc2ca12d60935e716588f04f9869204b5cd0f4b",
+      "source_members": [
+        "갓시리즈/식자재용_20kg/핫불고기_20kg.jpg"
+      ],
+      "label": {
+        "ko": "핫불고기 · 갓소스 · 식자재용 20kg",
+        "en": "Hot Bulgogi · Gat Sauce · Foodservice 20 kg"
+      }
+    },
+    {
+      "id": "gat-original-hot-tteokbokki-2768c95b57",
+      "group": "gat-original",
+      "flavour": "hot-tteokbokki",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/gat-original-hot-tteokbokki-2768c95b57.jpg",
+      "width": 1008,
+      "height": 1560,
+      "source_sha256": "2768c95b579f223bd74934c69b296e266945bf3877dce7aa1b455226e4fbaebb",
+      "sha256": "8fb4507909290dd16bad92158472d0e0e7de7e71e3ffe789a33bf877b2b2bce5",
+      "source_members": [
+        "갓시리즈/기본/핫떡볶이_기본.png"
+      ],
+      "label": {
+        "ko": "핫떡볶이 · 갓소스 · 기본 패키지",
+        "en": "Hot Tteokbokki · Gat Sauce · Original packaging"
+      }
+    },
+    {
+      "id": "legacy-gossam-511e754ea4",
+      "group": "legacy",
+      "flavour": "gossam",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/legacy-gossam-511e754ea4.jpg",
+      "width": 1024,
+      "height": 1536,
+      "source_sha256": "511e754ea4c5552e93da40d73542f622aff544df503aa3f4abc2a7599551ab3f",
+      "sha256": "e3f42a1ef5bcc6d9cf76f0930ce075b816faab46977418e8d5504864310c559b",
+      "source_members": [
+        "갓시리즈/이전 디자인/KakaoTalk_20261113_160319968_01.png"
+      ],
+      "label": {
+        "ko": "고쌈 · 이전 패키지 디자인 · 100ml",
+        "en": "GoSsam · Previous packaging design · 100 ml"
+      }
+    },
+    {
+      "id": "gat-20kg-gossam-6bc5de808e",
+      "group": "gat-20kg",
+      "flavour": "gossam",
+      "format": "20kg",
+      "src": "/assets/img/products-20261125/gat-20kg-gossam-6bc5de808e.jpg",
+      "width": 828,
+      "height": 1024,
+      "source_sha256": "6bc5de808e04db1cc8e7098fe1a5dd898c67c22d91b5ec1f722e5a4b85292cdf",
+      "sha256": "2089cfece65f4807f77ca6c2291af95848c400f0b6d13815a07425ad016d66b3",
+      "source_members": [
+        "갓시리즈/식자재용_20kg/고쌈_20kg.jpg"
+      ],
+      "label": {
+        "ko": "고쌈 · 갓소스 · 식자재용 20kg",
+        "en": "GoSsam · Gat Sauce · Foodservice 20 kg"
+      }
+    },
+    {
+      "id": "gat-20kg-sesame-ssam-3ac5ee562e",
+      "group": "gat-20kg",
+      "flavour": "sesame-ssam",
+      "format": "20kg",
+      "src": "/assets/img/products-20261125/gat-20kg-sesame-ssam-3ac5ee562e.jpg",
+      "width": 828,
+      "height": 1024,
+      "source_sha256": "3ac5ee562e1a98daaebf1266bbc0d2068d13e6477360ebde48930192d9acbb7b",
+      "sha256": "a4f29ec8a5a89f9c308aed8f6deef9e9554643c180c775ec2f3f1516c2645ad8",
+      "source_members": [
+        "갓시리즈/식자재용_20kg/참깨쌈_20kg.jpg"
+      ],
+      "label": {
+        "ko": "참깨쌈 · 갓소스 · 식자재용 20kg",
+        "en": "Sesame Ssam · Gat Sauce · Foodservice 20 kg"
+      }
+    },
+    {
+      "id": "legacy-hot-bulgogi-3c7bb9133c",
+      "group": "legacy",
+      "flavour": "hot-bulgogi",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/legacy-hot-bulgogi-3c7bb9133c.jpg",
+      "width": 1024,
+      "height": 1536,
+      "source_sha256": "3c7bb9133c5a4aa9c6648ffb8524858d6ab98db714ecdbe27167251fd2e01965",
+      "sha256": "184cbce4310f95f338b0e25795f30f0f5b08840328270563fb5e09f0df703e7d",
+      "source_members": [
+        "갓시리즈/이전 디자인/KakaoTalk_20261113_172035661_02.png"
+      ],
+      "label": {
+        "ko": "핫불고기 · 이전 패키지 디자인 · 100ml",
+        "en": "Hot Bulgogi · Previous packaging design · 100 ml"
+      }
+    },
+    {
+      "id": "gat-2kg-gossam-b8cd19e3bb",
+      "group": "gat-2kg",
+      "flavour": "gossam",
+      "format": "2kg",
+      "src": "/assets/img/products-20261125/gat-2kg-gossam-b8cd19e3bb.jpg",
+      "width": 719,
+      "height": 1024,
+      "source_sha256": "b8cd19e3bbd7568a4549fa60794ac3e3aa57d710ad886de4ef69fffb3cb61d93",
+      "sha256": "98f9cda567876f00439ae3103e11563fb3f21876dda95fc27ab257b971f82c32",
+      "source_members": [
+        "갓시리즈/벌크용_2kg/고쌈_2kg.jpg"
+      ],
+      "label": {
+        "ko": "고쌈 · 갓소스 · 업소용 2kg",
+        "en": "GoSsam · Gat Sauce · Foodservice 2 kg"
+      }
+    },
+    {
+      "id": "gat-20kg-garlic-ssam-115ee70b08",
+      "group": "gat-20kg",
+      "flavour": "garlic-ssam",
+      "format": "20kg",
+      "src": "/assets/img/products-20261125/gat-20kg-garlic-ssam-115ee70b08.jpg",
+      "width": 828,
+      "height": 1024,
+      "source_sha256": "115ee70b080b33fa90741f517399e7fa8c4f1d43152ee23d75479accb7432da8",
+      "sha256": "6f345e9833391c2ac1fbd1cb691d3a16fbd8d64ee441a2bdd3422d870641bc05",
+      "source_members": [
+        "갓시리즈/식자재용_20kg/갈릭쌈_20kg.jpg"
+      ],
+      "label": {
+        "ko": "갈릭쌈 · 갓소스 · 식자재용 20kg",
+        "en": "Garlic Ssam · Gat Sauce · Foodservice 20 kg"
+      }
+    },
+    {
+      "id": "gat-2kg-sesame-ssam-d26b889ff9",
+      "group": "gat-2kg",
+      "flavour": "sesame-ssam",
+      "format": "2kg",
+      "src": "/assets/img/products-20261125/gat-2kg-sesame-ssam-d26b889ff9.jpg",
+      "width": 719,
+      "height": 1024,
+      "source_sha256": "d26b889ff9f33a62db1cad70eedf34a8bc5294115688c5d7cc1a77eb2835275c",
+      "sha256": "f1410a031568ffdf233c4ec9db5e8588ce58a480b93737ef0a593d66ca4ee2c7",
+      "source_members": [
+        "갓시리즈/벌크용_2kg/참깨쌈_2kg.jpg"
+      ],
+      "label": {
+        "ko": "참깨쌈 · 갓소스 · 업소용 2kg",
+        "en": "Sesame Ssam · Gat Sauce · Foodservice 2 kg"
+      }
+    },
+    {
+      "id": "gat-vegan-hot-kimchi-33e74f5a8d",
+      "group": "gat-vegan",
+      "flavour": "hot-kimchi",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/gat-vegan-hot-kimchi-33e74f5a8d.jpg",
+      "width": 1008,
+      "height": 1560,
+      "source_sha256": "33e74f5a8d2084e437c8c7722ee0d515fd724b5088850c6d1d7627e74d796347",
+      "sha256": "764b587f5154a69473305236b216e3ebe78ba07b61d40d7dd03d41deca8900e5",
+      "source_members": [
+        "갓시리즈/이전 디자인/KakaoTalk_20261113_172035661_01.png",
+        "갓시리즈/비건 글루텐프리 ver/핫김치_비건,글루텐프리.png"
+      ],
+      "label": {
+        "ko": "핫김치 · 갓소스 · 비건·글루텐프리 표기 패키지",
+        "en": "Hot Kimchi · Gat Sauce · Vegan / gluten-free label design"
+      }
+    },
+    {
+      "id": "gat-original-sesame-ssam-75e405c977",
+      "group": "gat-original",
+      "flavour": "sesame-ssam",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/gat-original-sesame-ssam-75e405c977.jpg",
+      "width": 1024,
+      "height": 1535,
+      "source_sha256": "75e405c977337aed8e9b7eb2ab5e47a44bba5cff8a33cc7f18985f49772b0ceb",
+      "sha256": "7ef782ebc20bc5b7baf9fa676d8b32a23f224f7751c2a52510150ee9a985e79d",
+      "source_members": [
+        "갓시리즈/기본/참깨쌈_기본.png"
+      ],
+      "label": {
+        "ko": "참깨쌈 · 갓소스 · 기본 패키지",
+        "en": "Sesame Ssam · Gat Sauce · Original packaging"
+      }
+    },
+    {
+      "id": "gat-vegan-smoky-ssam-385044030f",
+      "group": "gat-vegan",
+      "flavour": "smoky-ssam",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/gat-vegan-smoky-ssam-385044030f.jpg",
+      "width": 1008,
+      "height": 1561,
+      "source_sha256": "385044030f161f92b423b2acf364578e45af7738898786a5dd30453b6ae34203",
+      "sha256": "adcc8889ec0fe6cfb2ddab3413fd5e571250f82d0044c940bbdca45ef0adb46e",
+      "source_members": [
+        "갓시리즈/비건 글루텐프리 ver/스모키쌈_비건,글루텐프리.png",
+        "갓시리즈/이전 디자인/KakaoTalk_20261113_172035661_04.png"
+      ],
+      "label": {
+        "ko": "스모키쌈 · 갓소스 · 비건·글루텐프리 표기 패키지",
+        "en": "Smoky Ssam · Gat Sauce · Vegan / gluten-free label design"
+      }
+    },
+    {
+      "id": "gat-vegan-hot-bulgogi-c9629e10c0",
+      "group": "gat-vegan",
+      "flavour": "hot-bulgogi",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/gat-vegan-hot-bulgogi-c9629e10c0.jpg",
+      "width": 1024,
+      "height": 1536,
+      "source_sha256": "c9629e10c0dc76ca1afbfaff552e42ea3f39e27c57dc2dc720603fb4d31458e9",
+      "sha256": "5cf7dd9b2f22200c93ad798b2f2337a52209f646b5ec65f2105ec101403b46bc",
+      "source_members": [
+        "갓시리즈/비건 글루텐프리 ver/핫불고기_비건,글루텐프리.png",
+        "갓시리즈/이전 디자인/핫불고기.png"
+      ],
+      "label": {
+        "ko": "핫불고기 · 갓소스 · 비건·글루텐프리 표기 패키지",
+        "en": "Hot Bulgogi · Gat Sauce · Vegan / gluten-free label design"
+      }
+    },
+    {
+      "id": "gat-vegan-sesame-ssam-9a19c265d0",
+      "group": "gat-vegan",
+      "flavour": "sesame-ssam",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/gat-vegan-sesame-ssam-9a19c265d0.jpg",
+      "width": 1024,
+      "height": 1536,
+      "source_sha256": "9a19c265d0f33d12ad9e400519a8b54df558d9efb682f308b76b532ace90e199",
+      "sha256": "688a010534f1fa963c578a2200bc6bfca3e5ee11aff364e42039e4e5f0d53e1a",
+      "source_members": [
+        "갓시리즈/이전 디자인/KakaoTalk_20261113_172035661_05.png",
+        "갓시리즈/비건 글루텐프리 ver/참깨쌈_비건,글루텐프리.png"
+      ],
+      "label": {
+        "ko": "참깨쌈 · 갓소스 · 비건·글루텐프리 표기 패키지",
+        "en": "Sesame Ssam · Gat Sauce · Vegan / gluten-free label design"
+      }
+    },
+    {
+      "id": "gat-2kg-smoky-ssam-bd46eb38e9",
+      "group": "gat-2kg",
+      "flavour": "smoky-ssam",
+      "format": "2kg",
+      "src": "/assets/img/products-20261125/gat-2kg-smoky-ssam-bd46eb38e9.jpg",
+      "width": 719,
+      "height": 1024,
+      "source_sha256": "bd46eb38e9369b121aeeb1abb9da72ca88a86f8e96da43f3d863cb3b813a9f21",
+      "sha256": "f5e7e0e76976ef11238da51db8d856dffcb6813f25b854bd32d3493c1e74d182",
+      "source_members": [
+        "갓시리즈/벌크용_2kg/스모키쌈_2kg.jpg"
+      ],
+      "label": {
+        "ko": "스모키쌈 · 갓소스 · 업소용 2kg",
+        "en": "Smoky Ssam · Gat Sauce · Foodservice 2 kg"
+      }
+    },
+    {
+      "id": "legacy-ssamssam-7b482a841e",
+      "group": "legacy",
+      "flavour": "ssamssam",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/legacy-ssamssam-7b482a841e.jpg",
+      "width": 1024,
+      "height": 1536,
+      "source_sha256": "7b482a841e231ac938c4aca8d482ace50399e1a0a7219ebded3fd79bcaf3aeff",
+      "sha256": "bc21932a15efbc416e15b40395cb18fde01c8e97e6f10f6b1d5687a914ab893a",
+      "source_members": [
+        "갓시리즈/이전 디자인/KakaoTalk_20261113_160319968_02.jpg"
+      ],
+      "label": {
+        "ko": "쌈쌈 · 이전 패키지 디자인 · 100ml",
+        "en": "SsamSsam · Previous packaging design · 100 ml"
+      }
+    },
+    {
+      "id": "gat-2kg-hot-tteokbokki-0d4db8437b",
+      "group": "gat-2kg",
+      "flavour": "hot-tteokbokki",
+      "format": "2kg",
+      "src": "/assets/img/products-20261125/gat-2kg-hot-tteokbokki-0d4db8437b.jpg",
+      "width": 719,
+      "height": 1024,
+      "source_sha256": "0d4db8437bdd0b6a9c0d8db8841d1c72f33173dde4a0660bf818f2b27060e8d2",
+      "sha256": "d6422e0dce6f4bcbed7c9ccbcc4fc6ee80acb98b62e58965870546816a5767cb",
+      "source_members": [
+        "갓시리즈/벌크용_2kg/핫떡볶이_2kg.jpg"
+      ],
+      "label": {
+        "ko": "핫떡볶이 · 갓소스 · 업소용 2kg",
+        "en": "Hot Tteokbokki · Gat Sauce · Foodservice 2 kg"
+      }
+    },
+    {
+      "id": "gat-halal-garlic-ssam-23ac1efd65",
+      "group": "gat-halal",
+      "flavour": "garlic-ssam",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/gat-halal-garlic-ssam-23ac1efd65.jpg",
+      "width": 1024,
+      "height": 1535,
+      "source_sha256": "23ac1efd651ede39f845121c86bc3e5307c52c117528b9933a199835908d7789",
+      "sha256": "71dabefc7ccace7310682e0f535c4858962c6fd84ce4359496518c7c29e5b749",
+      "source_members": [
+        "갓시리즈/할랄 글루텐프리 ver/갈릭쌈_할랄_글루텐프리.jpg"
+      ],
+      "label": {
+        "ko": "갈릭쌈 · 갓소스 · 할랄·글루텐프리 표기 패키지",
+        "en": "Garlic Ssam · Gat Sauce · Halal / gluten-free label design"
+      }
+    },
+    {
+      "id": "gat-20kg-hot-tteokbokki-1a799fc1b6",
+      "group": "gat-20kg",
+      "flavour": "hot-tteokbokki",
+      "format": "20kg",
+      "src": "/assets/img/products-20261125/gat-20kg-hot-tteokbokki-1a799fc1b6.jpg",
+      "width": 828,
+      "height": 1024,
+      "source_sha256": "1a799fc1b6b82c60004bb2d860db08fe39fc9ba72f4175975fdef1f126972a90",
+      "sha256": "9f487790d3e4477ccd83f96d6e3c998ca177facaa2c2d0099824f17666fbd555",
+      "source_members": [
+        "갓시리즈/식자재용_20kg/핫떡볶이_20kg.jpg"
+      ],
+      "label": {
+        "ko": "핫떡볶이 · 갓소스 · 식자재용 20kg",
+        "en": "Hot Tteokbokki · Gat Sauce · Foodservice 20 kg"
+      }
+    },
+    {
+      "id": "gat-halal-gossam-ffd411573e",
+      "group": "gat-halal",
+      "flavour": "gossam",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/gat-halal-gossam-ffd411573e.jpg",
+      "width": 1024,
+      "height": 1535,
+      "source_sha256": "ffd411573ec161b1ab9ce1b1b12e6717b75024d168bc5069116040cc1b7820ce",
+      "sha256": "e2c54456c7c8a34d3be64bbb5f36236505fa7b000b4e9145c5327ff7b3821bc4",
+      "source_members": [
+        "갓시리즈/할랄 글루텐프리 ver/고쌈_할랄_글루텐프리.jpg"
+      ],
+      "label": {
+        "ko": "고쌈 · 갓소스 · 할랄·글루텐프리 표기 패키지",
+        "en": "GoSsam · Gat Sauce · Halal / gluten-free label design"
+      }
+    },
+    {
+      "id": "gat-vegan-garlic-ssam-dbb7eac12c",
+      "group": "gat-vegan",
+      "flavour": "garlic-ssam",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/gat-vegan-garlic-ssam-dbb7eac12c.jpg",
+      "width": 1024,
+      "height": 1536,
+      "source_sha256": "dbb7eac12c77d9ab44749d43d965cd0a1578586dd0c90eb6b8d8ea2e75a4ea46",
+      "sha256": "f40a6589b1bfe5cea942242ea8a6b74b7f70ad081061e646d3236bfbc64cf8e6",
+      "source_members": [
+        "갓시리즈/비건 글루텐프리 ver/갈릭쌈_비건,글루텐프리.png",
+        "갓시리즈/이전 디자인/KakaoTalk_20261113_172035661.png"
+      ],
+      "label": {
+        "ko": "갈릭쌈 · 갓소스 · 비건·글루텐프리 표기 패키지",
+        "en": "Garlic Ssam · Gat Sauce · Vegan / gluten-free label design"
+      }
+    },
+    {
+      "id": "gat-original-smoky-ssam-e270f5e4ae",
+      "group": "gat-original",
+      "flavour": "smoky-ssam",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/gat-original-smoky-ssam-e270f5e4ae.jpg",
+      "width": 1008,
+      "height": 1560,
+      "source_sha256": "e270f5e4ae2ebe225990ef5fa59c3b4ba2ba90a9ad464e3927f1c20a2e1888af",
+      "sha256": "37444eb7ce377c9ccdbae451dfc9e1c1ebaaa9dcceae07763afcfba9bbcd1579",
+      "source_members": [
+        "갓시리즈/기본/스모키쌈_기본png.png"
+      ],
+      "label": {
+        "ko": "스모키쌈 · 갓소스 · 기본 패키지",
+        "en": "Smoky Ssam · Gat Sauce · Original packaging"
+      }
+    },
+    {
+      "id": "gat-halal-sesame-ssam-8295147324",
+      "group": "gat-halal",
+      "flavour": "sesame-ssam",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/gat-halal-sesame-ssam-8295147324.jpg",
+      "width": 1024,
+      "height": 1535,
+      "source_sha256": "82951473243c2b8524fb44d4cffc49bc1570156f4fe6d54c5263bfadfc76be1a",
+      "sha256": "7da039fa4fd3aa733f9c9f5200e267d48c36745c8bf31295263b68e7d74d861c",
+      "source_members": [
+        "갓시리즈/할랄 글루텐프리 ver/참깨쌈_할랄_글루텐프리.jpg"
+      ],
+      "label": {
+        "ko": "참깨쌈 · 갓소스 · 할랄·글루텐프리 표기 패키지",
+        "en": "Sesame Ssam · Gat Sauce · Halal / gluten-free label design"
+      }
+    },
+    {
+      "id": "gat-halal-hot-bulgogi-cf9b83bed1",
+      "group": "gat-halal",
+      "flavour": "hot-bulgogi",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/gat-halal-hot-bulgogi-cf9b83bed1.jpg",
+      "width": 1024,
+      "height": 1536,
+      "source_sha256": "cf9b83bed1f05ddde3db0532600e5fd12375fa43bba583d14a814891992aab4c",
+      "sha256": "afb61800c706539b910b9f5c2fb6afa734869923815522e51fc4bf1446c6e612",
+      "source_members": [
+        "갓시리즈/할랄 글루텐프리 ver/핫불고기_할랄_글루텐프리.jpg"
+      ],
+      "label": {
+        "ko": "핫불고기 · 갓소스 · 할랄·글루텐프리 표기 패키지",
+        "en": "Hot Bulgogi · Gat Sauce · Halal / gluten-free label design"
+      }
+    },
+    {
+      "id": "gat-2kg-hot-bulgogi-1f3c01be09",
+      "group": "gat-2kg",
+      "flavour": "hot-bulgogi",
+      "format": "2kg",
+      "src": "/assets/img/products-20261125/gat-2kg-hot-bulgogi-1f3c01be09.jpg",
+      "width": 719,
+      "height": 1024,
+      "source_sha256": "1f3c01be091c1c09c7c7ee1e7abc29440e99f4817419a81d124fff14a883d715",
+      "sha256": "0ba75e5df904a02746cc12267b0e5c64259e9761a56f1dc5ef4a2a9b23c80911",
+      "source_members": [
+        "갓시리즈/벌크용_2kg/핫불고기쌈_2kg.jpg"
+      ],
+      "label": {
+        "ko": "핫불고기 · 갓소스 · 업소용 2kg",
+        "en": "Hot Bulgogi · Gat Sauce · Foodservice 2 kg"
+      }
+    },
+    {
+      "id": "legacy-tossam-e2e528c0a2",
+      "group": "legacy",
+      "flavour": "tossam",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/legacy-tossam-e2e528c0a2.jpg",
+      "width": 1024,
+      "height": 1536,
+      "source_sha256": "e2e528c0a2b70cf3a67b9d90066e7e327b5d4ffa4dc744b5860a17ace91c063e",
+      "sha256": "be3cbf32844a9bd60343ebb0f91ba97cc0696ce46a5787b00a1243cfe588b972",
+      "source_members": [
+        "갓시리즈/이전 디자인/KakaoTalk_20261113_160319968_03.png"
+      ],
+      "label": {
+        "ko": "토쌈 · 이전 패키지 디자인 · 100ml",
+        "en": "ToSsam · Previous packaging design · 100 ml"
+      }
+    },
+    {
+      "id": "gat-20kg-hot-kimchi-92845bc5ed",
+      "group": "gat-20kg",
+      "flavour": "hot-kimchi",
+      "format": "20kg",
+      "src": "/assets/img/products-20261125/gat-20kg-hot-kimchi-92845bc5ed.jpg",
+      "width": 828,
+      "height": 1024,
+      "source_sha256": "92845bc5ed62eb2615c7e431ca57d57e81bbae1656bca5722a050cab4369a065",
+      "sha256": "68716fae048feb3e902349b790ab63c6ec1033ddf84611e9b7113eb12ae4758e",
+      "source_members": [
+        "갓시리즈/식자재용_20kg/핫김치_20kg.jpg"
+      ],
+      "label": {
+        "ko": "핫김치 · 갓소스 · 식자재용 20kg",
+        "en": "Hot Kimchi · Gat Sauce · Foodservice 20 kg"
+      }
+    },
+    {
+      "id": "gat-halal-hot-tteokbokki-9f24aba234",
+      "group": "gat-halal",
+      "flavour": "hot-tteokbokki",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/gat-halal-hot-tteokbokki-9f24aba234.jpg",
+      "width": 1008,
+      "height": 1560,
+      "source_sha256": "9f24aba234606c32b31b8f52e7152ff3146f9a97a70ea6f0ae9faa17ec91d769",
+      "sha256": "c633b7fc76c873a68623b711624519f8a2871b04ead1110f21703ce38533dffb",
+      "source_members": [
+        "갓시리즈/할랄 글루텐프리 ver/핫떡볶이_할랄_글루텐프리.jpg"
+      ],
+      "label": {
+        "ko": "핫떡볶이 · 갓소스 · 할랄·글루텐프리 표기 패키지",
+        "en": "Hot Tteokbokki · Gat Sauce · Halal / gluten-free label design"
+      }
+    },
+    {
+      "id": "legacy-hotssam-e044d8debb",
+      "group": "legacy",
+      "flavour": "hotssam",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/legacy-hotssam-e044d8debb.jpg",
+      "width": 1024,
+      "height": 1536,
+      "source_sha256": "e044d8debb75865b7b510f36eba23f7a3846ece63e8d86c192dd727debb4ce8c",
+      "sha256": "3faafaa2caaab6fce258c237e5b21cbf8472aec44d542b01c865e70624d336fe",
+      "source_members": [
+        "갓시리즈/이전 디자인/KakaoTalk_20261113_160319968.png"
+      ],
+      "label": {
+        "ko": "핫쌈 · 이전 패키지 디자인 · 100ml",
+        "en": "HotSsam · Previous packaging design · 100 ml"
+      }
+    },
+    {
+      "id": "gat-halal-hot-kimchi-d67997063e",
+      "group": "gat-halal",
+      "flavour": "hot-kimchi",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/gat-halal-hot-kimchi-d67997063e.jpg",
+      "width": 1008,
+      "height": 1560,
+      "source_sha256": "d67997063e33589c3eb6d80a209a3007b1efd1b2b3a0bfd79a799d5edea81054",
+      "sha256": "b594f8e5e3d9da4e5ae5852877efc6a2eda931a45109d49abc59bdf00054f367",
+      "source_members": [
+        "갓시리즈/할랄 글루텐프리 ver/핫김치_할랄_글루텐프리.jpg"
+      ],
+      "label": {
+        "ko": "핫김치 · 갓소스 · 할랄·글루텐프리 표기 패키지",
+        "en": "Hot Kimchi · Gat Sauce · Halal / gluten-free label design"
+      }
+    },
+    {
+      "id": "gat-original-gossam-5684bad73d",
+      "group": "gat-original",
+      "flavour": "gossam",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/gat-original-gossam-5684bad73d.jpg",
+      "width": 1024,
+      "height": 1535,
+      "source_sha256": "5684bad73d6835b9916540db21a18681c1174fac9fe154d18f7ebb62504bca1a",
+      "sha256": "73fcafa32561f557b934ef2fb0befc0262f05119eb55a7753d691a68b843ceaf",
+      "source_members": [
+        "갓시리즈/기본/고쌈 _기본.png"
+      ],
+      "label": {
+        "ko": "고쌈 · 갓소스 · 기본 패키지",
+        "en": "GoSsam · Gat Sauce · Original packaging"
+      }
+    },
+    {
+      "id": "gat-vegan-hot-tteokbokki-1472193bc5",
+      "group": "gat-vegan",
+      "flavour": "hot-tteokbokki",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/gat-vegan-hot-tteokbokki-1472193bc5.jpg",
+      "width": 1008,
+      "height": 1560,
+      "source_sha256": "1472193bc58ca5226377cef86deafee027c38eb4c6154c8cf564e544f27e7931",
+      "sha256": "6528402788006c0f33c00b651e0ea4bbb72b9d05406072962d911330c1abbacd",
+      "source_members": [
+        "갓시리즈/이전 디자인/KakaoTalk_20261113_172035661_03.png",
+        "갓시리즈/비건 글루텐프리 ver/핫떡볶이_비건,글루텐프리.png"
+      ],
+      "label": {
+        "ko": "핫떡볶이 · 갓소스 · 비건·글루텐프리 표기 패키지",
+        "en": "Hot Tteokbokki · Gat Sauce · Vegan / gluten-free label design"
+      }
+    },
+    {
+      "id": "gat-original-hot-bulgogi-97c9ce37c8",
+      "group": "gat-original",
+      "flavour": "hot-bulgogi",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/gat-original-hot-bulgogi-97c9ce37c8.jpg",
+      "width": 1024,
+      "height": 1536,
+      "source_sha256": "97c9ce37c831857d3e7972dc0c54e275400e151ac5119d2a053391869fa9f3dd",
+      "sha256": "80c0677939ebee2c779fec4d716932dbb992e97651faba194cffe08103e5c8a6",
+      "source_members": [
+        "갓시리즈/기본/핫불고기_기본.png"
+      ],
+      "label": {
+        "ko": "핫불고기 · 갓소스 · 기본 패키지",
+        "en": "Hot Bulgogi · Gat Sauce · Original packaging"
+      }
+    },
+    {
+      "id": "gat-vegan-gossam-ef36b885da",
+      "group": "gat-vegan",
+      "flavour": "gossam",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/gat-vegan-gossam-ef36b885da.jpg",
+      "width": 1024,
+      "height": 1535,
+      "source_sha256": "ef36b885da76a52ad981df608f2243f07682c1c96a3b401dc4d124bca0d3760d",
+      "sha256": "ce38d6db0e5a8a2e0b9095a2699d96881c234b5090590b6bde724c46f345caa4",
+      "source_members": [
+        "갓시리즈/비건 글루텐프리 ver/고쌈_비건,글루텐프리.jpg"
+      ],
+      "label": {
+        "ko": "고쌈 · 갓소스 · 비건·글루텐프리 표기 패키지",
+        "en": "GoSsam · Gat Sauce · Vegan / gluten-free label design"
+      }
+    },
+    {
+      "id": "gat-original-garlic-ssam-37a14232a3",
+      "group": "gat-original",
+      "flavour": "garlic-ssam",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/gat-original-garlic-ssam-37a14232a3.jpg",
+      "width": 1024,
+      "height": 1535,
+      "source_sha256": "37a14232a38e4218c209544108a8276d0149afb9562325f6e2574a49286aed71",
+      "sha256": "e2d33ab2db2fddbe66c0c680b3145bed3f6ab8c97827bb157621d6082e9f1b81",
+      "source_members": [
+        "갓시리즈/기본/갈릭쌈_기본.png"
+      ],
+      "label": {
+        "ko": "갈릭쌈 · 갓소스 · 기본 패키지",
+        "en": "Garlic Ssam · Gat Sauce · Original packaging"
+      }
+    },
+    {
+      "id": "gat-halal-smoky-ssam-40c10aa45e",
+      "group": "gat-halal",
+      "flavour": "smoky-ssam",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/gat-halal-smoky-ssam-40c10aa45e.jpg",
+      "width": 1008,
+      "height": 1560,
+      "source_sha256": "40c10aa45ecf18da07c930f1a9d13c0d48a63c65da0cc1de37d318d6d516e8e5",
+      "sha256": "9017f72750787bea09b7167dab0997718677cd18ff08412e7fcf35ede8d2e60e",
+      "source_members": [
+        "갓시리즈/할랄 글루텐프리 ver/스모키쌈_할랄_글루텐프리.jpg"
+      ],
+      "label": {
+        "ko": "스모키쌈 · 갓소스 · 할랄·글루텐프리 표기 패키지",
+        "en": "Smoky Ssam · Gat Sauce · Halal / gluten-free label design"
+      }
+    },
+    {
+      "id": "gat-2kg-garlic-ssam-b4d21a281f",
+      "group": "gat-2kg",
+      "flavour": "garlic-ssam",
+      "format": "2kg",
+      "src": "/assets/img/products-20261125/gat-2kg-garlic-ssam-b4d21a281f.jpg",
+      "width": 719,
+      "height": 1024,
+      "source_sha256": "b4d21a281f496cb1ebbbab4ee7b2f1576f50c5ebb305f0cf23e266333ea229bb",
+      "sha256": "e92cef52ca933a8fa513c3eadd1497dae3a589fb05276cb3e1293741898ac7d4",
+      "source_members": [
+        "갓시리즈/벌크용_2kg/갈릭쌈_2kg.jpg"
+      ],
+      "label": {
+        "ko": "갈릭쌈 · 갓소스 · 업소용 2kg",
+        "en": "Garlic Ssam · Gat Sauce · Foodservice 2 kg"
+      }
+    },
+    {
+      "id": "low-sugar-vegan-2kg-hot-bulgogi-dd00113d6b",
+      "group": "low-sugar-vegan-2kg",
+      "flavour": "hot-bulgogi",
+      "format": "2kg",
+      "src": "/assets/img/products-20261125/low-sugar-vegan-2kg-hot-bulgogi-dd00113d6b.jpg",
+      "width": 722,
+      "height": 1024,
+      "source_sha256": "dd00113d6baa5e0b54772919b72db3517f5b508f6758b9a98707463ce0080847",
+      "sha256": "afae808345dd1e06a3c21b80b5e1052bc60864d2f74236f263d763b219202345",
+      "source_members": [
+        "저당비건 컬렉션/벌크용_2kg/핫불고기쌈_2kg.jpg"
+      ],
+      "label": {
+        "ko": "핫불고기 · 저당비건 · 업소용 2kg",
+        "en": "Hot Bulgogi · Low Sugar Vegan · Foodservice 2 kg"
+      }
+    },
+    {
+      "id": "low-sugar-vegan-100ml-hot-tteokbokki-56b6f77f39",
+      "group": "low-sugar-vegan-100ml",
+      "flavour": "hot-tteokbokki",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/low-sugar-vegan-100ml-hot-tteokbokki-56b6f77f39.jpg",
+      "width": 1024,
+      "height": 1536,
+      "source_sha256": "56b6f77f390f09a9a0bfdf67b99edd64e2d9cedd4539e8f856f3bdfbd7877ab8",
+      "sha256": "c02fa9087157b1d19091ba92020825fcc3f6317aba3d88f70f6ae883066a646a",
+      "source_members": [
+        "저당비건 컬렉션/100ml/핫떡볶이_저당비건.png"
+      ],
+      "label": {
+        "ko": "핫떡볶이 · 저당비건 · 100ml 패키지",
+        "en": "Hot Tteokbokki · Low Sugar Vegan · 100 ml packaging"
+      }
+    },
+    {
+      "id": "low-sugar-vegan-20kg-hot-bulgogi-f231084fd6",
+      "group": "low-sugar-vegan-20kg",
+      "flavour": "hot-bulgogi",
+      "format": "20kg",
+      "src": "/assets/img/products-20261125/low-sugar-vegan-20kg-hot-bulgogi-f231084fd6.jpg",
+      "width": 832,
+      "height": 1024,
+      "source_sha256": "f231084fd6b85cb7f0f22be3e5d25a8ea365d1b8663081c9d96c65dbefd489f5",
+      "sha256": "2999b7ed4c5a3072419b3c642cf5d3c9d9c971203ac8ec85bfa4b1edb1156713",
+      "source_members": [
+        "저당비건 컬렉션/식자재용_20kg/핫불고기_20kg.jpg"
+      ],
+      "label": {
+        "ko": "핫불고기 · 저당비건 · 식자재용 20kg",
+        "en": "Hot Bulgogi · Low Sugar Vegan · Foodservice 20 kg"
+      }
+    },
+    {
+      "id": "low-sugar-vegan-20kg-hot-tteokbokki-c5ded3d6ce",
+      "group": "low-sugar-vegan-20kg",
+      "flavour": "hot-tteokbokki",
+      "format": "20kg",
+      "src": "/assets/img/products-20261125/low-sugar-vegan-20kg-hot-tteokbokki-c5ded3d6ce.jpg",
+      "width": 832,
+      "height": 1024,
+      "source_sha256": "c5ded3d6ceb81a314605da56626029ea100a2fb7705cb1ba5bf612fb539a4e07",
+      "sha256": "9a9cbb2234ed38403823c2cbe5806e672fa546b891594cbd09ff8eafe9f2e7e9",
+      "source_members": [
+        "저당비건 컬렉션/식자재용_20kg/핫떡볶이_20kg.jpg"
+      ],
+      "label": {
+        "ko": "핫떡볶이 · 저당비건 · 식자재용 20kg",
+        "en": "Hot Tteokbokki · Low Sugar Vegan · Foodservice 20 kg"
+      }
+    },
+    {
+      "id": "low-sugar-vegan-100ml-gossam-5ff83324ae",
+      "group": "low-sugar-vegan-100ml",
+      "flavour": "gossam",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/low-sugar-vegan-100ml-gossam-5ff83324ae.jpg",
+      "width": 1024,
+      "height": 1536,
+      "source_sha256": "5ff83324aed9e121b525053de0870832640194ea30777459930c880b596fb0b3",
+      "sha256": "342d24354f4d4f376189ba34570e7effee9e3244957e2f0217bd395b844a7138",
+      "source_members": [
+        "저당비건 컬렉션/100ml/모던호랑이_고쌈.png"
+      ],
+      "label": {
+        "ko": "고쌈 · 저당비건 · 100ml 패키지",
+        "en": "GoSsam · Low Sugar Vegan · 100 ml packaging"
+      }
+    },
+    {
+      "id": "low-sugar-vegan-100ml-sesame-ssam-05b88c93ed",
+      "group": "low-sugar-vegan-100ml",
+      "flavour": "sesame-ssam",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/low-sugar-vegan-100ml-sesame-ssam-05b88c93ed.jpg",
+      "width": 1024,
+      "height": 1536,
+      "source_sha256": "05b88c93ed862a7a3402f805b753c39a40b53030c068e8f0e3b2a0f11623930a",
+      "sha256": "da359305e778c4f4ba6f5288a86ee5d744bebc4a28001b536ad123e0d057156f",
+      "source_members": [
+        "저당비건 컬렉션/100ml/참깨쌈_저당비건.png"
+      ],
+      "label": {
+        "ko": "참깨쌈 · 저당비건 · 100ml 패키지",
+        "en": "Sesame Ssam · Low Sugar Vegan · 100 ml packaging"
+      }
+    },
+    {
+      "id": "low-sugar-vegan-2kg-garlic-ssam-c87f437f73",
+      "group": "low-sugar-vegan-2kg",
+      "flavour": "garlic-ssam",
+      "format": "2kg",
+      "src": "/assets/img/products-20261125/low-sugar-vegan-2kg-garlic-ssam-c87f437f73.jpg",
+      "width": 722,
+      "height": 1024,
+      "source_sha256": "c87f437f73778028f35c22ebff10475943b63c2e1f4f4fafa8f97ff1336a4431",
+      "sha256": "85a5e7d5e0335619017a57cec4edf7f918a40f965f256841077fe66626d889fe",
+      "source_members": [
+        "저당비건 컬렉션/벌크용_2kg/갈릭쌈_2kg.jpg"
+      ],
+      "label": {
+        "ko": "갈릭쌈 · 저당비건 · 업소용 2kg",
+        "en": "Garlic Ssam · Low Sugar Vegan · Foodservice 2 kg"
+      }
+    },
+    {
+      "id": "low-sugar-vegan-2kg-gossam-91256b26f1",
+      "group": "low-sugar-vegan-2kg",
+      "flavour": "gossam",
+      "format": "2kg",
+      "src": "/assets/img/products-20261125/low-sugar-vegan-2kg-gossam-91256b26f1.jpg",
+      "width": 714,
+      "height": 1024,
+      "source_sha256": "91256b26f15be6a29c09762b2279ed1e3eb0ad343df2b145b2632f6ab1845f4c",
+      "sha256": "f66a4c02e56fd3a89cf3caf4bc39540644aa1c5711539154b5c9cfa1185a0466",
+      "source_members": [
+        "저당비건 컬렉션/벌크용_2kg/고쌈_2kg.jpg"
+      ],
+      "label": {
+        "ko": "고쌈 · 저당비건 · 업소용 2kg",
+        "en": "GoSsam · Low Sugar Vegan · Foodservice 2 kg"
+      }
+    },
+    {
+      "id": "low-sugar-vegan-20kg-gossam-039ab33af3",
+      "group": "low-sugar-vegan-20kg",
+      "flavour": "gossam",
+      "format": "20kg",
+      "src": "/assets/img/products-20261125/low-sugar-vegan-20kg-gossam-039ab33af3.jpg",
+      "width": 828,
+      "height": 1024,
+      "source_sha256": "039ab33af3c26cc252ff269e7fc56414e53021c741820c1bb0174b7320508646",
+      "sha256": "17158d69b8de60303b0a1cedcac1eb6f3be081f6a1e5ddfecf35eceae7b35743",
+      "source_members": [
+        "저당비건 컬렉션/식자재용_20kg/고쌈_20kg.jpg"
+      ],
+      "label": {
+        "ko": "고쌈 · 저당비건 · 식자재용 20kg",
+        "en": "GoSsam · Low Sugar Vegan · Foodservice 20 kg"
+      }
+    },
+    {
+      "id": "low-sugar-vegan-20kg-smoky-ssam-2e4c6ec739",
+      "group": "low-sugar-vegan-20kg",
+      "flavour": "smoky-ssam",
+      "format": "20kg",
+      "src": "/assets/img/products-20261125/low-sugar-vegan-20kg-smoky-ssam-2e4c6ec739.jpg",
+      "width": 832,
+      "height": 1024,
+      "source_sha256": "2e4c6ec739291fb312d1fba206fa70ec53aea01be6a7ede79d2612cc17425896",
+      "sha256": "aef442fae883007bdedc55aa30f6cafda0d8e41a239660623369c4a21eca8313",
+      "source_members": [
+        "저당비건 컬렉션/식자재용_20kg/스모키쌈_20kg.jpg"
+      ],
+      "label": {
+        "ko": "스모키쌈 · 저당비건 · 식자재용 20kg",
+        "en": "Smoky Ssam · Low Sugar Vegan · Foodservice 20 kg"
+      }
+    },
+    {
+      "id": "low-sugar-vegan-2kg-hot-tteokbokki-945509d779",
+      "group": "low-sugar-vegan-2kg",
+      "flavour": "hot-tteokbokki",
+      "format": "2kg",
+      "src": "/assets/img/products-20261125/low-sugar-vegan-2kg-hot-tteokbokki-945509d779.jpg",
+      "width": 722,
+      "height": 1024,
+      "source_sha256": "945509d77937871b6b30a17f6eb361a1713e02ceca4c5822d26e5d2dd39c3eb1",
+      "sha256": "fd96e7f16194c38a4ac8162924cf5d7d326a64c4dea850f73e2dbd9f0c28a29a",
+      "source_members": [
+        "저당비건 컬렉션/벌크용_2kg/핫떡볶이_2kg.jpg"
+      ],
+      "label": {
+        "ko": "핫떡볶이 · 저당비건 · 업소용 2kg",
+        "en": "Hot Tteokbokki · Low Sugar Vegan · Foodservice 2 kg"
+      }
+    },
+    {
+      "id": "low-sugar-vegan-20kg-sesame-ssam-1d80720964",
+      "group": "low-sugar-vegan-20kg",
+      "flavour": "sesame-ssam",
+      "format": "20kg",
+      "src": "/assets/img/products-20261125/low-sugar-vegan-20kg-sesame-ssam-1d80720964.jpg",
+      "width": 832,
+      "height": 1024,
+      "source_sha256": "1d807209642f15c985dd60522efdc40585d9322db034b08f2abf777d1faca21f",
+      "sha256": "586f8e8c9311fd96bd34acdc904c6d61358c22009d1e7675a7a22d5ecaba92c2",
+      "source_members": [
+        "저당비건 컬렉션/식자재용_20kg/참깨쌈_20kg.jpg"
+      ],
+      "label": {
+        "ko": "참깨쌈 · 저당비건 · 식자재용 20kg",
+        "en": "Sesame Ssam · Low Sugar Vegan · Foodservice 20 kg"
+      }
+    },
+    {
+      "id": "low-sugar-vegan-2kg-sesame-ssam-d3de67d6f6",
+      "group": "low-sugar-vegan-2kg",
+      "flavour": "sesame-ssam",
+      "format": "2kg",
+      "src": "/assets/img/products-20261125/low-sugar-vegan-2kg-sesame-ssam-d3de67d6f6.jpg",
+      "width": 722,
+      "height": 1024,
+      "source_sha256": "d3de67d6f61b57ee57648dff30e6bddd2908949c912f3e56825ed1e3f2a66dbe",
+      "sha256": "7f24dd893810ef934a476cac0eed38194067c47de63eeeca04a43ea5ca332e2d",
+      "source_members": [
+        "저당비건 컬렉션/벌크용_2kg/참깨쌈_2kg.jpg"
+      ],
+      "label": {
+        "ko": "참깨쌈 · 저당비건 · 업소용 2kg",
+        "en": "Sesame Ssam · Low Sugar Vegan · Foodservice 2 kg"
+      }
+    },
+    {
+      "id": "low-sugar-vegan-2kg-smoky-ssam-7a39700fbe",
+      "group": "low-sugar-vegan-2kg",
+      "flavour": "smoky-ssam",
+      "format": "2kg",
+      "src": "/assets/img/products-20261125/low-sugar-vegan-2kg-smoky-ssam-7a39700fbe.jpg",
+      "width": 722,
+      "height": 1024,
+      "source_sha256": "7a39700fbe969fe324f538d6345195f21f0c6b401e964533b935c2a0c3ec0677",
+      "sha256": "c9f9ff667dbf572d087d4c8283a5eaecb753745fdb88907626cf789692f5055c",
+      "source_members": [
+        "저당비건 컬렉션/벌크용_2kg/스모키쌈_2kg.jpg"
+      ],
+      "label": {
+        "ko": "스모키쌈 · 저당비건 · 업소용 2kg",
+        "en": "Smoky Ssam · Low Sugar Vegan · Foodservice 2 kg"
+      }
+    },
+    {
+      "id": "low-sugar-vegan-2kg-hot-kimchi-5284561082",
+      "group": "low-sugar-vegan-2kg",
+      "flavour": "hot-kimchi",
+      "format": "2kg",
+      "src": "/assets/img/products-20261125/low-sugar-vegan-2kg-hot-kimchi-5284561082.jpg",
+      "width": 722,
+      "height": 1024,
+      "source_sha256": "5284561082f19dadccc38eba1140fff5138170472bb0d2c38289490a74c739d7",
+      "sha256": "d751e4c98b8b0f43bb66a259c62aa2d391d3bf3dd0fb6794d28e81d956578b0d",
+      "source_members": [
+        "저당비건 컬렉션/벌크용_2kg/핫김치_2kg.jpg"
+      ],
+      "label": {
+        "ko": "핫김치 · 저당비건 · 업소용 2kg",
+        "en": "Hot Kimchi · Low Sugar Vegan · Foodservice 2 kg"
+      }
+    },
+    {
+      "id": "low-sugar-vegan-20kg-hot-kimchi-418aa443bc",
+      "group": "low-sugar-vegan-20kg",
+      "flavour": "hot-kimchi",
+      "format": "20kg",
+      "src": "/assets/img/products-20261125/low-sugar-vegan-20kg-hot-kimchi-418aa443bc.jpg",
+      "width": 832,
+      "height": 1024,
+      "source_sha256": "418aa443bc8ac496881d3dc47ae510762cf202c0403a86ceb9becac05dc14043",
+      "sha256": "ae779174a35fc5fc1e572d76ac3cae3e4f9f29d15cb09d4ddad7dd740cf728f5",
+      "source_members": [
+        "저당비건 컬렉션/식자재용_20kg/핫김치_20kg.jpg"
+      ],
+      "label": {
+        "ko": "핫김치 · 저당비건 · 식자재용 20kg",
+        "en": "Hot Kimchi · Low Sugar Vegan · Foodservice 20 kg"
+      }
+    },
+    {
+      "id": "low-sugar-vegan-20kg-garlic-ssam-4b9acc4098",
+      "group": "low-sugar-vegan-20kg",
+      "flavour": "garlic-ssam",
+      "format": "20kg",
+      "src": "/assets/img/products-20261125/low-sugar-vegan-20kg-garlic-ssam-4b9acc4098.jpg",
+      "width": 832,
+      "height": 1024,
+      "source_sha256": "4b9acc40984441649220df2523866124bdaffc232202ce8156996a4850c8d16d",
+      "sha256": "41a0487c9549c8ff208074f81c80487e0cc21881142494e9a8ab4d6f0f0774f7",
+      "source_members": [
+        "저당비건 컬렉션/식자재용_20kg/갈릭쌈_20kg.jpg"
+      ],
+      "label": {
+        "ko": "갈릭쌈 · 저당비건 · 식자재용 20kg",
+        "en": "Garlic Ssam · Low Sugar Vegan · Foodservice 20 kg"
+      }
+    },
+    {
+      "id": "low-sugar-vegan-100ml-hot-kimchi-a9926a3823",
+      "group": "low-sugar-vegan-100ml",
+      "flavour": "hot-kimchi",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/low-sugar-vegan-100ml-hot-kimchi-a9926a3823.jpg",
+      "width": 1024,
+      "height": 1536,
+      "source_sha256": "a9926a38236dce1963e1a03ad3c29ef455efbc722c96b5aa068a9469a3f52b62",
+      "sha256": "3aefcd0349c838adebdf1460d35f2708aba34a39a3a98bcfd9347c8403717705",
+      "source_members": [
+        "저당비건 컬렉션/100ml/핫김치_저당비건.jpg"
+      ],
+      "label": {
+        "ko": "핫김치 · 저당비건 · 100ml 패키지",
+        "en": "Hot Kimchi · Low Sugar Vegan · 100 ml packaging"
+      }
+    },
+    {
+      "id": "low-sugar-vegan-100ml-garlic-ssam-234f10bc0a",
+      "group": "low-sugar-vegan-100ml",
+      "flavour": "garlic-ssam",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/low-sugar-vegan-100ml-garlic-ssam-234f10bc0a.jpg",
+      "width": 1024,
+      "height": 1536,
+      "source_sha256": "234f10bc0aa166c9de131db2e01d7f395dc8b58e520991e5eed064bdbf0b4e15",
+      "sha256": "48635b3266781656f85431a03b1e0821004c591dcaa3179dbf946fcdaf64149f",
+      "source_members": [
+        "저당비건 컬렉션/100ml/갈릭쌈_저당비건.jpg"
+      ],
+      "label": {
+        "ko": "갈릭쌈 · 저당비건 · 100ml 패키지",
+        "en": "Garlic Ssam · Low Sugar Vegan · 100 ml packaging"
+      }
+    },
+    {
+      "id": "low-sugar-vegan-100ml-hot-bulgogi-edd0fb378c",
+      "group": "low-sugar-vegan-100ml",
+      "flavour": "hot-bulgogi",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/low-sugar-vegan-100ml-hot-bulgogi-edd0fb378c.jpg",
+      "width": 1024,
+      "height": 1536,
+      "source_sha256": "edd0fb378c50d09ae9100b8f1230aa1f90c0fbfcdc330d207ded9b2f5014feab",
+      "sha256": "c3ab4885603225476c42ceca2ba2cf38c6acbba859d5159f2c3796cd40d2b9b3",
+      "source_members": [
+        "저당비건 컬렉션/100ml/핫불고기_저당비건.jpg"
+      ],
+      "label": {
+        "ko": "핫불고기 · 저당비건 · 100ml 패키지",
+        "en": "Hot Bulgogi · Low Sugar Vegan · 100 ml packaging"
+      }
+    },
+    {
+      "id": "low-sugar-vegan-100ml-smoky-ssam-10cccea0b5",
+      "group": "low-sugar-vegan-100ml",
+      "flavour": "smoky-ssam",
+      "format": "100ml",
+      "src": "/assets/img/products-20261125/low-sugar-vegan-100ml-smoky-ssam-10cccea0b5.jpg",
+      "width": 1024,
+      "height": 1536,
+      "source_sha256": "10cccea0b5ecf2ca47dc4f96ff0efe4c962db2cc065e813546efa7ebe211e191",
+      "sha256": "284f35baee5a9a1e5a533955eec158a6c70562d4bc621b3f1ada70be9fc329a3",
+      "source_members": [
+        "저당비건 컬렉션/100ml/스모키쌈_저당비건.png"
+      ],
+      "label": {
+        "ko": "스모키쌈 · 저당비건 · 100ml 패키지",
+        "en": "Smoky Ssam · Low Sugar Vegan · 100 ml packaging"
+      }
+    }
+  ],
+  "rules": [
+    "No upscaling",
+    "150 ml original line retained",
+    "Low sugar is not low sodium",
+    "Package label variants do not establish certification"
+  ]
+}
