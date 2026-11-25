@@ -2,14 +2,16 @@
 from pathlib import Path
 from lxml import html,etree
 from PIL import Image,ImageDraw
-import hashlib,json,re
+import argparse,hashlib,json,re
 import pymupdf as fitz
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT.parent/'outputs/2026-11-25-product-image-refresh'
 LANGS={'ko','en','es','zh','ja','ar','fr','de','it'}
 
-def run():
+def run(manifest_path='assets/catalogues/manifest-20261125.json', output=None):
+    output=Path(output) if output else OUT
+    output.mkdir(parents=True,exist_ok=True)
     data=json.loads((ROOT/'content/product-image-refresh-20261125.json').read_text())
     catalog=json.loads((ROOT/'content/catalog.json').read_text())
     expected={a['src'] for a in data['assets']};seen=set();html_files=[]
@@ -29,11 +31,18 @@ def run():
     for ident in ['ssamssam','hotssam','tossam','gossam']:
         p=next(p for p in catalog['products'] if p['id']==ident)
         assert '150' in p['format']['en'] and '18-month' in p['format']['en']
-    manifest=json.loads((ROOT/'assets/catalogues/manifest-20261125.json').read_text())
+    manifest=json.loads((ROOT/manifest_path).read_text())
+    if manifest.get('revision')=='low-sodium-7-products':
+        low=[p for p in catalog['products'] if 'low-sodium' in p['collections']]
+        vegan=[p for p in catalog['products'] if 'vegan' in p['collections']]
+        assert len(low)==7 and {p['id'] for p in low}=={p['id'] for p in vegan}
+        page=html.parse(str(ROOT/'products/low-sodium/index.html'))
+        assert len(page.xpath('//section[contains(@class,"product-detail")]'))==7
+        assert not page.xpath('//div[contains(@class,"collection-empty")]')
     assert len(manifest['documents'])==27
     assert {(r['id'],r['language']) for r in manifest['documents']}=={(i,l) for i in ['company','products','complete'] for l in LANGS}
     allowed={'svg','g','defs','path','rect','circle','ellipse','polygon','polyline','line','text','tspan','image','use','clipPath','mask','linearGradient','radialGradient','stop','pattern','symbol','filter','feColorMatrix','title','desc'}
-    checked_svg=set();pdfs=[];reviews=OUT/'pdf-review';reviews.mkdir(exist_ok=True)
+    checked_svg=set();pdfs=[];reviews=output/'pdf-review';reviews.mkdir(exist_ok=True)
     for r in manifest['documents']:
         path=ROOT/r['url'].lstrip('/');d=fitz.open(path)
         assert path.stat().st_size==r['bytes']<25*1024*1024
@@ -75,7 +84,12 @@ def run():
     result={'html_count':len(html_files),'unique_images':67,'source_image_records':73,'no_image_upscaling':True,
             'original_150ml_identity_retained':True,'pdfs':pdfs,'unique_svg_pages':len(checked_svg),
             'all_original_body_copy_checked':True,'appendix_images_per_language':67,'local_integrity_passed':True}
-    (OUT/'final-local-validation.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
+    (output/'final-local-validation.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({k:v for k,v in result.items() if k!='pdfs'},ensure_ascii=False,indent=2))
 
-if __name__=='__main__':run()
+if __name__=='__main__':
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--manifest',default='assets/catalogues/manifest-20261125.json')
+    parser.add_argument('--output')
+    args=parser.parse_args()
+    run(args.manifest,args.output)
