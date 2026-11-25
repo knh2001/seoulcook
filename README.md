@@ -10,8 +10,10 @@ feature branches are verified through their Cloudflare preview checks.
 - Native image dimensions are retained. Product, size, label variant and previous
   packaging are recorded in `content/product-image-refresh-20261125.json`.
 - Original 150 ml / 18-month SsamSsam information is retained; 100 ml imagery is
-  separately labelled. Low Sugar Vegan is presented in the Vegan collection,
-  while Low Sodium remains a distinct development collection.
+  separately labelled. The brand confirmed on 2026-11-25 that the seven
+  Low Sugar Vegan products also belong to the Low Sodium collection. They are
+  shared product entries, with 100 ml, 2 kg and 20 kg photographs in both
+  collections. This assignment does not add numeric sodium claims.
 - The 2 kg and 20 kg formats populate the Bulk collection. All 67 designs can
   be reached from `/products/packaging/`. A package-label design does not by
   itself establish certification, nutritional test results or a changed recipe.
@@ -20,7 +22,7 @@ feature branches are verified through their Cloudflare preview checks.
 
 ## Company and product documents
 
-The document library uses `assets/catalogues/manifest-20261125.json`: company
+The document library uses `assets/catalogues/manifest-20261125-low-sodium.json`: company
 profiles (7 pages), product catalogues (21 pages), and combined documents
 (28 pages), in Korean, English, Spanish, Chinese, Japanese, Arabic, French,
 German and Italian. Hindi is excluded. Each product catalogue includes all
@@ -29,7 +31,9 @@ German and Italian. Hindi is excluded. Each product catalogue includes all
 Matching SVG print pages retain vector lettering and native-resolution images.
 All active PDFs are below the 25 MiB individual-file hosting limit. Dated asset
 paths avoid reusing the immutable cache URLs of older documents and images.
-The older 2026-11-19 documents and images remain available for rollback.
+The older 2026-11-19 and initial 2026-11-25 documents remain available for rollback.
+The Low Sodium revision adds only three revised print pages per language;
+unchanged vector pages and images are reused.
 
 ## Reproduce and validate
 
@@ -43,9 +47,9 @@ JavaScript syntax checks. No new runtime dependency is loaded by the website.
 ```
 python scripts/refresh_product_images.py INPUT_MANIFEST.json
 python scripts/refresh_catalogues.py
-python scripts/validate_image_refresh.py
-node --check assets/js/catalogues-20261125.js
-node --check assets/js/catalogue-print-20261125.js
+python scripts/validate_image_refresh.py --manifest assets/catalogues/manifest-20261125-low-sodium.json
+node --check assets/js/catalogues-20261125-low-sodium.js
+node --check assets/js/catalogue-print-20261125-low-sodium.js
 git diff --check
 ```
 
@@ -56,6 +60,9 @@ hashes and page counts, source body copy, the 67-image appendix in every
 language, and all 252 vector print pages and their image references. It also
 renders the nine combined documents for visual review. Browser checks cover
 responsive pages, the nine-language selector and printable-page readiness.
+`scripts/reflect_low_sodium.py` creates the brand-confirmed collection revision
+from the initial 2026-11-25 release. Run it only from that pre-revision source
+state; it refuses to overwrite the revised PDF filenames.
 
 ## Rollback
 

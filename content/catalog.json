@@ -68,12 +68,12 @@
         "en": "Low Sodium Collection"
       },
       "description": {
-        "ko": "장맛의 깊이와 나트륨의 균형을 함께 고민하는 제품을 개발하고 있습니다.",
-        "en": "A collection in development, exploring the balance between rich Korean flavour and sodium content."
+        "ko": "저당비건 7종을 저염 컬렉션에서도 만나보세요. 100ml 보틀과 식당·업소용 2kg·20kg으로 소개합니다.",
+        "en": "Explore the seven Low Sugar Vegan products in our Low Sodium Collection, in 100 ml bottles and 2 kg / 20 kg foodservice formats."
       },
       "status": {
-        "ko": "상품 개발 중",
-        "en": "In development"
+        "ko": "판매 중",
+        "en": "Available"
       }
     },
     {
@@ -1430,7 +1430,8 @@
       },
       "reference_volume_ml": 100,
       "collections": [
-        "vegan"
+        "vegan",
+        "low-sodium"
       ],
       "images": [
         {
@@ -1508,7 +1509,8 @@
       },
       "reference_volume_ml": 100,
       "collections": [
-        "vegan"
+        "vegan",
+        "low-sodium"
       ],
       "images": [
         {
@@ -1608,7 +1610,8 @@
         }
       ],
       "collections": [
-        "vegan"
+        "vegan",
+        "low-sodium"
       ],
       "images": [
         {
@@ -1708,7 +1711,8 @@
         }
       ],
       "collections": [
-        "vegan"
+        "vegan",
+        "low-sodium"
       ],
       "images": [
         {
@@ -1786,7 +1790,8 @@
       },
       "reference_volume_ml": 100,
       "collections": [
-        "vegan"
+        "vegan",
+        "low-sodium"
       ],
       "images": [
         {
@@ -1886,7 +1891,8 @@
         }
       ],
       "collections": [
-        "vegan"
+        "vegan",
+        "low-sodium"
       ],
       "images": [
         {
@@ -1935,7 +1941,8 @@
         "en": "GoSsam · Low Sugar Vegan"
       },
       "collections": [
-        "vegan"
+        "vegan",
+        "low-sodium"
       ],
       "status": {
         "ko": "판매 중",
