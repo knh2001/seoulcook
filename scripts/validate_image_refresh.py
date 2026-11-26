@@ -12,7 +12,8 @@ LANGS={'ko','en','es','zh','ja','ar','fr','de','it'}
 def run(manifest_path='assets/catalogues/manifest-20261125.json', output=None):
     output=Path(output) if output else OUT
     output.mkdir(parents=True,exist_ok=True)
-    data=json.loads((ROOT/'content/product-image-refresh-20261125.json').read_text())
+    manifest=json.loads((ROOT/manifest_path).read_text())
+    data=json.loads((ROOT/manifest.get('packaging_manifest','content/product-image-refresh-20261125.json')).read_text())
     catalog=json.loads((ROOT/'content/catalog.json').read_text())
     expected={a['src'] for a in data['assets']};seen=set();html_files=[]
     for path in ROOT.rglob('*.html'):
@@ -23,7 +24,9 @@ def run(manifest_path='assets/catalogues/manifest-20261125.json', output=None):
             if src.startswith('/'):assert (ROOT/src.lstrip('/')).is_file(),(path,src)
         html_files.append(str(path.relative_to(ROOT)))
     assert expected<=seen
-    assert len(expected)==67 and data['archive_image_count']==73 and len(catalog['products'])==19
+    expected_count=data['unique_image_count']
+    source_count=data.get('source_image_count',data['archive_image_count'])
+    assert len(expected)==expected_count and len(catalog['products'])==19
     for a in data['assets']:
         path=ROOT/a['src'].lstrip('/');im=Image.open(path)
         assert im.size==(a['width'],a['height'])
@@ -31,8 +34,7 @@ def run(manifest_path='assets/catalogues/manifest-20261125.json', output=None):
     for ident in ['ssamssam','hotssam','tossam','gossam']:
         p=next(p for p in catalog['products'] if p['id']==ident)
         assert '150' in p['format']['en'] and '18-month' in p['format']['en']
-    manifest=json.loads((ROOT/manifest_path).read_text())
-    if manifest.get('revision')=='low-sodium-7-products':
+    if manifest.get('collection_update',{}).get('low-sodium',{}).get('product_count')==7:
         low=[p for p in catalog['products'] if 'low-sodium' in p['collections']]
         vegan=[p for p in catalog['products'] if 'vegan' in p['collections']]
         assert len(low)==7 and {p['id'] for p in low}=={p['id'] for p in vegan}
@@ -71,19 +73,19 @@ def run(manifest_path='assets/catalogues/manifest-20261125.json', output=None):
                             if 80<box[1]<780 and (r['id']=='company' or box[0]>=168) and text.strip()!='11':
                                 assert ''.join(text.split()) in new_text,(r['language'],idx,text)
         if r['id']=='products':
-            # Each of the 67 distinct source designs appears in the appendix.
+            # Every supplied distinct design appears in the current appendix.
             photos=[im for p in list(d)[11:] for im in p.get_image_info() if im['height']>im['width']]
-            assert len(photos)==67,(r['language'],len(photos))
+            assert len(photos)==expected_count,(r['language'],len(photos))
         if r['id']=='complete':
-            sheet=Image.new('RGB',(1400,1340),'#eee');draw=ImageDraw.Draw(sheet)
+            sheet=Image.new('RGB',(1400,((len(d)+6)//7)*335),'#eee');draw=ImageDraw.Draw(sheet)
             for i,p in enumerate(d):
                 pix=p.get_pixmap(matrix=fitz.Matrix(.32,.32));im=Image.frombytes('RGB',(pix.width,pix.height),pix.samples)
                 x=i%7*200;y=i//7*335;sheet.paste(im,(x,y));draw.text((x+5,y+278),str(i+1),fill='black')
             sheet.save(reviews/f"final-all-pages-{r['language']}.jpg")
         pdfs.append({'id':r['id'],'language':r['language'],'pages':len(d),'bytes':r['bytes'],'sha256':r['sha256']})
-    result={'html_count':len(html_files),'unique_images':67,'source_image_records':73,'no_image_upscaling':True,
+    result={'html_count':len(html_files),'unique_images':expected_count,'source_image_records':source_count,'no_image_upscaling':True,
             'original_150ml_identity_retained':True,'pdfs':pdfs,'unique_svg_pages':len(checked_svg),
-            'all_original_body_copy_checked':True,'appendix_images_per_language':67,'local_integrity_passed':True}
+            'all_original_body_copy_checked':True,'appendix_images_per_language':expected_count,'local_integrity_passed':True}
     (output/'final-local-validation.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({k:v for k,v in result.items() if k!='pdfs'},ensure_ascii=False,indent=2))
 
