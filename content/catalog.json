@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25",
+  "updated_at": "2026-11-26",
   "collections": [
     {
       "id": "ssamssam",
@@ -817,10 +817,22 @@
       ],
       "images": [
         {
+          "src": "/assets/img/products-20261126/hot-bulgogi-dipping-100ml-6568eda28d.png",
+          "label": {
+            "ko": "핫불고기 디핑소스 · 100ml · 2026.11.26 패키지",
+            "en": "Hot Bulgogi Dipping Sauce · 100 ml · 2026-11-26 packaging"
+          },
+          "width": 976,
+          "height": 1612,
+          "group": "dipping-100ml",
+          "format": "100ml",
+          "source_sha256": "6568eda28dbc272e0f50767253ca12fe9d87f26dba14c9155ecf89051080a59c"
+        },
+        {
           "src": "/assets/img/products-20261125/gat-original-hot-bulgogi-97c9ce37c8.jpg",
           "label": {
-            "ko": "핫불고기 · 갓소스 · 기본 패키지",
-            "en": "Hot Bulgogi · Gat Sauce · Original packaging"
+            "ko": "핫불고기 · 이전 100ml 패키지",
+            "en": "Hot Bulgogi · Previous 100 ml packaging"
           },
           "width": 1024,
           "height": 1536,
@@ -1097,10 +1109,22 @@
       ],
       "images": [
         {
+          "src": "/assets/img/products-20261126/hot-kimchi-dipping-100ml-801beb3197.png",
+          "label": {
+            "ko": "핫김치 디핑소스 · 100ml · 2026.11.26 패키지",
+            "en": "Hot Kimchi Dipping Sauce · 100 ml · 2026-11-26 packaging"
+          },
+          "width": 976,
+          "height": 1612,
+          "group": "dipping-100ml",
+          "format": "100ml",
+          "source_sha256": "801beb319772d89ef302ca30c81758f9e42e3005c68a1264f99a8c881f72c07e"
+        },
+        {
           "src": "/assets/img/products-20261125/gat-original-hot-kimchi-b878231771.jpg",
           "label": {
-            "ko": "핫김치 · 갓소스 · 기본 패키지",
-            "en": "Hot Kimchi · Gat Sauce · Original packaging"
+            "ko": "핫김치 · 이전 100ml 패키지",
+            "en": "Hot Kimchi · Previous 100 ml packaging"
           },
           "width": 1008,
           "height": 1560,
@@ -3184,6 +3208,40 @@
       "label": {
         "ko": "스모키쌈 · 저당비건 · 100ml 패키지",
         "en": "Smoky Ssam · Low Sugar Vegan · 100 ml packaging"
+      }
+    },
+    {
+      "id": "hot-kimchi-dipping-100ml-801beb3197",
+      "group": "dipping-100ml",
+      "flavour": "hot-kimchi",
+      "format": "100ml",
+      "src": "/assets/img/products-20261126/hot-kimchi-dipping-100ml-801beb3197.png",
+      "width": 976,
+      "height": 1612,
+      "source_sha256": "801beb319772d89ef302ca30c81758f9e42e3005c68a1264f99a8c881f72c07e",
+      "source_members": [
+        "KakaoTalk_Photo_2026-11-26-14-06-41 001.png"
+      ],
+      "label": {
+        "ko": "핫김치 디핑소스 · 100ml · 2026.11.26 패키지",
+        "en": "Hot Kimchi Dipping Sauce · 100 ml · 2026-11-26 packaging"
+      }
+    },
+    {
+      "id": "hot-bulgogi-dipping-100ml-6568eda28d",
+      "group": "dipping-100ml",
+      "flavour": "hot-bulgogi",
+      "format": "100ml",
+      "src": "/assets/img/products-20261126/hot-bulgogi-dipping-100ml-6568eda28d.png",
+      "width": 976,
+      "height": 1612,
+      "source_sha256": "6568eda28dbc272e0f50767253ca12fe9d87f26dba14c9155ecf89051080a59c",
+      "source_members": [
+        "KakaoTalk_Photo_2026-11-26-14-06-41 002.png"
+      ],
+      "label": {
+        "ko": "핫불고기 디핑소스 · 100ml · 2026.11.26 패키지",
+        "en": "Hot Bulgogi Dipping Sauce · 100 ml · 2026-11-26 packaging"
       }
     }
   ]
