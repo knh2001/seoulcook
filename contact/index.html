@@ -90,11 +90,11 @@
         </div>
       </div>
 
-      <form class="form rv" data-inquiry>
+      <form class="form rv" data-inquiry-server action="/api/inquiry" method="post">
         <div class="frow">
-          <div class="fld"><label for="c-nm"><span data-ko>성함 <span class='req'>*</span></span><span data-en>Name <span class='req'>*</span></span></label><input id="c-nm" name="name" required></div>
-          <div class="fld"><label for="c-em"><span data-ko>이메일 <span class='req'>*</span></span><span data-en>Email <span class='req'>*</span></span></label><input id="c-em" type="email" name="email" required></div>
-          <div class="fld full"><label for="c-co"><span data-ko>회사명 (선택)</span><span data-en>Company (optional)</span></label><input id="c-co" name="company"></div>
+          <div class="fld"><label for="c-nm"><span data-ko>성함 <span class='req'>*</span></span><span data-en>Name <span class='req'>*</span></span></label><input id="c-nm" name="name" maxlength="100" required></div>
+          <div class="fld"><label for="c-em"><span data-ko>이메일 <span class='req'>*</span></span><span data-en>Email <span class='req'>*</span></span></label><input id="c-em" type="email" name="email" maxlength="254" required></div>
+          <div class="fld full"><label for="c-co"><span data-ko>회사명 (선택)</span><span data-en>Company (optional)</span></label><input id="c-co" name="company" maxlength="200"></div>
           <div class="fld full"><label for="c-ty"><span data-ko>문의 유형</span><span data-en>Inquiry type</span></label>
             <select id="c-ty" name="inquiry_type">
               <option data-t-ko="제품 문의" data-t-en="Product question">제품 문의</option>
@@ -107,11 +107,15 @@
             </select>
           </div>
           <div class="fld full"><label for="c-ms"><span data-ko>문의 내용 <span class='req'>*</span></span><span data-en>Message <span class='req'>*</span></span></label>
-            <textarea id="c-ms" name="message" required data-t-ko="문의하실 내용을 적어주세요." data-t-en="How can we help?" placeholder="문의하실 내용을 적어주세요."></textarea></div>
+            <textarea id="c-ms" name="message" maxlength="10000" required data-t-ko="문의하실 내용을 적어주세요." data-t-en="How can we help?" placeholder="문의하실 내용을 적어주세요."></textarea></div>
           <div class="fld full"><label class="chkline"><input type="checkbox" name="privacy" required><span><span data-ko>개인정보 수집 및 이용에 동의합니다. (문의 응대 목적, 3년 보관)</span><span data-en>I agree to the collection and use of my details for the purpose of responding to this inquiry (retained for 3 years).</span></span></label></div>
         </div>
-        <button class="btn btn-p btn-full" type="submit"><span data-ko>보내기</span><span data-en>Send</span></button>
-        <p class="hint"><span data-ko>* 메일 앱이 열리면 내용을 확인하고 전송해 주세요.</span><span data-en>* Your mail client opens with the message prefilled.</span></p>
+        <div hidden aria-hidden="true"><label>Website<input name="contact_url" tabindex="-1" autocomplete="off"></label></div>
+        <div data-inquiry-challenge></div>
+        <button class="btn btn-p btn-full" type="submit" disabled><span data-ko>보내기</span><span data-en>Send</span></button>
+        <p class="hint" data-inquiry-status role="status" aria-live="polite"><span data-ko>문의 전송 기능을 연결하고 있습니다.</span><span data-en>Connecting the inquiry service.</span></p>
+        <p class="hint"><span data-ko>직접 문의: </span><span data-en>Email us directly: </span><a href="mailto:export@seoulcook.com">export@seoulcook.com</a></p>
+        <noscript><p class="hint">문의 폼에는 JavaScript가 필요합니다. 위 이메일로 직접 문의해 주세요. / This form requires JavaScript. Please email us directly.</p></noscript>
       </form>
     </div>
   </div>
@@ -160,6 +164,7 @@
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script src="/assets/js/site.js" defer></script>
+<script src="/assets/js/inquiry.js?v=20261126" defer></script>
 <script src="/assets/js/collections.js?v=20261118" defer></script>
 </body>
 </html>

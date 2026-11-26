@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/cloudflare/workers-sdk/main/packages/wrangler/config-schema.json",
+  "name": "seoulcook-inquiries",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-11-26",
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    { "pattern": "seoulcook.com/api/inquiry*", "zone_name": "seoulcook.com" },
+    { "pattern": "www.seoulcook.com/api/inquiry*", "zone_name": "seoulcook.com" }
+  ],
+  "send_email": [
+    { "name": "EMAIL", "allowed_sender_addresses": ["export@seoulcook.com"] }
+  ],
+  "ratelimits": [
+    { "name": "INQUIRY_LIMITER", "namespace_id": "2026112601", "simple": { "limit": 5, "period": 60 } }
+  ],
+  "vars": {
+    "INQUIRY_ENABLED": "false",
+    "TURNSTILE_SITE_KEY": ""
+  },
+  "observability": { "enabled": false }
+}
